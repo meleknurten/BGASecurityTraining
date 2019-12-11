@@ -1,0 +1,131 @@
+    1  top -c
+    2  watch 'ps -ef | grep nmap | grep -v grep'
+    3  history  >> history3.txt
+   34  arp-scan -l -I eth0 
+   35  cat sample.yaml 
+   36  cat pa
+   37  cat yaml_parser.py 
+   38  python yaml_parser.py 
+   39  cat sample.yaml 
+   40  python yaml_parser.py 
+   41  cat yaml_parser.py 
+   42  vi sample.yaml 
+   43  cat sample.yaml 
+   44  vi yaml_parser.py 
+   45  python yaml_parser.py 
+   46  cat sample.yaml 
+   47  python yaml_parser.py 
+   48  ls -la /var/log/auth.log
+   49  vi sample.yaml 
+   50  python yaml_parser.py 
+   51  python command_line_parser.py 
+   52  python command_line_parser.py -p PROJECT 
+   53  python command_line_parser.py -p PROJECT -s asdads
+   54  python command_line_parser.py -p PROJECT -s test
+   55  python command_line_parser.py -p PROJECT -s test -v 
+   56  python command_line_parser.py --help
+   57  vi command_line_parser.py 
+   58  python command_line_parser.py -p PROJECT -s test -v 
+   59  python command_line_parser.py 
+   60  python command_line_parser.py -p PROJECT -s testjgjhg
+   61  python command_line_parser.py -p PROJECT -s test 
+   62  python command_line_parser.py -p PROJECT -s test -v
+   63  python command_line_parser.py -p PROJECT 
+   64  python command_line_parser.py -p PROJECT --config /etc/passwd
+   65  python command_line_parser.py -p PROJECT --config sample.yaml 
+   66  python command_line_parser.py --config sample.yaml -p PROJECT 
+   67  python command_line_parser.py --config sample.yaml -pasads
+   68  python command_line_parser.py --config sample.yaml 
+   69  python command_line_parser.py --config sample.yaml -i asdads
+   70  python command_line_parser.py --config sample.yaml -p PEOEJCT 
+   71  python nmap_scanner.py 
+   72  python nmap_scanner.py -s 10.10.15.0/24
+   73  python nmap_scanner.py 
+   74  python nmap_scanner.py --help
+   75  python nmap_scanner.py -s 10.10.15.0/24
+   76  python pinger.py -s 10.10.15.0/24
+   77  python
+   78  python pinger.py -s 10.10.15.0/24
+   79  vi sample.yaml 
+   80  cat sample.yaml 
+   81  cat yaml_parser.py 
+   82  python pinger.py 
+   83  python pinger.py --config sample.yaml 
+   84  python pinger.py --config sample.yamlasdasd 
+   85  python pinger.py --config sample.yaml
+   86  cat sample.yaml 
+   87  python pinger.py --config sample.yaml
+   88  which arp-scan 
+   89  which nmap
+   90  which hydra
+   91  vi sample.yaml 
+   92  python pinger.py --config sample.yaml
+   93  vi sample.yaml 
+   94  echo "root" > usernames.txt
+   95  echo "admin" >> usernames.txt
+   96  echo "root" >> passwords.txt
+   97  echo "toor" >> passwords.txt
+   98  python pinger.py --config sample.yaml
+   99  /usr/sbin/arp-scan -l -I eth0
+  100  python pinger.py --config sample.yaml
+  101  /usr/sbin/arp-scan -l -I eth0
+  102  python pinger.py --config sample.yaml
+  103  cat sample.yaml 
+  104  history >> history3.txt 
+  365  chmod 755 script.py 
+  366  ./script.py 
+  367  ./script.py ASDASD
+  368  ./script.py ASDASD asdasd
+  369  ./script.py /etc/passwd
+  370  ./script.py /etc/passwd | head -10 
+  371  head -10 /etc/passwd
+  372  ./script.py /etc/passwd | head -10 
+  373  dhclient eth0 -v
+  374  /etc/init.d/apache2 restart
+  375  ./script.py /etc/passwd | head -10 
+  376  ifconfig 
+  377  dhclient eth0 -v
+  378  pkill dhclient
+  379  iptables -L -n
+  380  /etc/init.d/apache2 restart
+  381  ./script.py /etc/passwdddd
+  382  echo $?
+  383  ./script.py /etc/passwdddd
+  384  ./script.py /etc/passwd
+  385  ./script.py /etc/passwdasd
+  386  ./script.py /etc/passwd
+  387  ./script.py /etc/passwdjjj
+  388  wget https://raw.githubusercontent.com/SecureAuthCorp/impacket/master/examples/getArch.py
+  389  chmod 755 getArch.py 
+  390  ./getArch.py --help
+  391  ./getArch.py -target 10.10.15.186
+  392  ./getArch.py -target 10.10.15.191
+  393  ./getArch.py -target 10.10.15.217
+  394  ./getArch.py -target 10.10.15.235
+  395  ./getArch.py -target 10.10.15.11
+  396  ./getArch.py -target 10.10.15.174
+  397  ./getArch.py -target 10.10.15.208
+  398  ./getArch.py -target 10.10.15.181
+  399  vi sample.yam
+  400  vi sample.yaml
+  401  cat sample.yaml 
+  402  python
+  403  pip search yaml 
+  404  pip install pyyml
+  405  pip install PyYAML
+  406  cat sample.yaml 
+  407  vi yaml_parser.py
+  408  python yaml_parser.py 
+  409  vi yaml_parser.py
+  410  python yaml_parser.py 
+  411  vi yaml_parser.py
+  412  python yaml_parser.py 
+  413  vi yaml_parser.py
+  414  vi command_line_parser.py
+  415  vi nmap_scanner.py
+  416  cp nmap_scanner.py  pinger.py
+  417  vi pinger.py 
+  418  history  >> history3.txt 
+   49  python
+   50  vi script.py
+   51  history  >> history3.txt 

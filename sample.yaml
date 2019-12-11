@@ -1,0 +1,6 @@
+General:
+    Interface: eth0    
+    Subnet: 10.10.15.0/24    
+    Username: "usernames.txt"
+    Password: "passwords.txt"
+    Output:   "results.txt" 

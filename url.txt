@@ -1,0 +1,2 @@
+https://www.siberportal.org/blue-team/securing-linux-operating-system/introduction-to-linux-bash-programming/
+https://www.siberportal.org/blue-team/securing-linux-operating-system/basic-linux-commands/
