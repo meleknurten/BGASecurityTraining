@@ -1,0 +1,48 @@
+# Nmap 7.80 scan initiated Wed Dec 11 07:44:19 2019 as: nmap -n -Pn -sS --top-ports 100 --min-hostgroup 128 --open -oA NMAP-SCAN-RESULT 10.10.15.0/24
+Host: 10.10.15.1 ()	Status: Up
+Host: 10.10.15.1 ()	Ports: 23/open/tcp//telnet///, 80/open/tcp//http///, 443/open/tcp//https///
+Host: 10.10.15.5 ()	Status: Up
+Host: 10.10.15.5 ()	Ports: 23/open/tcp//telnet///
+Host: 10.10.15.7 ()	Status: Up
+Host: 10.10.15.7 ()	Ports: 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 5357/open/tcp//wsdapi///	Ignored State: closed (95)
+Host: 10.10.15.9 ()	Status: Up
+Host: 10.10.15.9 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 515/open/tcp//printer///, 631/open/tcp//ipp///, 8080/open/tcp//http-proxy///, 9100/open/tcp//jetdirect///	Ignored State: closed (92)
+Host: 10.10.15.11 ()	Status: Up
+Host: 10.10.15.11 ()	Ports: 111/open/tcp//rpcbind///	Ignored State: closed (99)
+Host: 10.10.15.18 ()	Status: Up
+Host: 10.10.15.18 ()	Ports: 22/open/tcp//ssh///, 111/open/tcp//rpcbind///	Ignored State: closed (98)
+Host: 10.10.15.19 ()	Status: Up
+Host: 10.10.15.19 ()	Ports: 111/open/tcp//rpcbind///	Ignored State: closed (99)
+Host: 10.10.15.20 ()	Status: Up
+Host: 10.10.15.20 ()	Ports: 80/open/tcp//http///, 111/open/tcp//rpcbind///	Ignored State: closed (98)
+Host: 10.10.15.33 ()	Status: Up
+Host: 10.10.15.33 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 515/open/tcp//printer///, 631/open/tcp//ipp///, 8080/open/tcp//http-proxy///, 9100/open/tcp//jetdirect///	Ignored State: closed (94)
+Host: 10.10.15.40 ()	Status: Up
+Host: 10.10.15.40 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///	Ignored State: filtered (97)
+Host: 10.10.15.46 ()	Status: Up
+Host: 10.10.15.46 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///	Ignored State: closed (92)
+Host: 10.10.15.50 ()	Status: Up
+Host: 10.10.15.50 ()	Ports: 1433/open/tcp//ms-sql-s///, 5357/open/tcp//wsdapi///
+Host: 10.10.15.62 ()	Status: Up
+Host: 10.10.15.62 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 5357/open/tcp//wsdapi///	Ignored State: filtered (96)
+Host: 10.10.15.72 ()	Status: Up
+Host: 10.10.15.72 ()	Ports: 3389/open/tcp//ms-wbt-server///, 7070/open/tcp//realserver///	Ignored State: filtered (98)
+Host: 10.10.15.88 ()	Status: Up
+Host: 10.10.15.88 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 427/open/tcp//svrloc///, 443/open/tcp//https///, 8000/open/tcp//http-alt///
+Host: 10.10.15.174 ()	Status: Up
+Host: 10.10.15.174 ()	Ports: 22/open/tcp//ssh///, 111/open/tcp//rpcbind///	Ignored State: closed (98)
+Host: 10.10.15.217 ()	Status: Up
+Host: 10.10.15.217 ()	Ports: 111/open/tcp//rpcbind///	Ignored State: closed (99)
+Host: 10.10.15.229 ()	Status: Up
+Host: 10.10.15.229 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///	Ignored State: filtered (97)
+Host: 10.10.15.231 ()	Status: Up
+Host: 10.10.15.231 ()	Ports: 80/open/tcp//http///	Ignored State: filtered (99)
+Host: 10.10.15.233 ()	Status: Up
+Host: 10.10.15.233 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 10.10.15.235 ()	Status: Up
+Host: 10.10.15.235 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 5060/open/tcp//sip///	Ignored State: closed (97)
+Host: 10.10.15.248 ()	Status: Up
+Host: 10.10.15.248 ()	Ports: 80/open/tcp//http///, 5060/open/tcp//sip///	Ignored State: closed (98)
+Host: 10.10.15.16 ()	Status: Up
+Host: 10.10.15.16 ()	Ports: 23/open/tcp//telnet///, 80/open/tcp//http///, 111/open/tcp//rpcbind///	Ignored State: closed (97)
+# Nmap done at Wed Dec 11 07:44:28 2019 -- 256 IP addresses (52 hosts up) scanned in 9.24 seconds

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="NMAP-SCAN-RESULT_files/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Wed Dec 11 07:44:19 2019 as: nmap -n -Pn -sS -&#45;top-ports 100 -&#45;min-hostgroup 128 -&#45;open -oA NMAP-SCAN-RESULT 10.10.15.0/24 -->
+<nmaprun scanner="nmap" args="nmap -n -Pn -sS --top-ports 100 --min-hostgroup 128 --open -oA NMAP-SCAN-RESULT 10.10.15.0/24" start="1576068259" startstr="Wed Dec 11 07:44:19 2019" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1576068259" endtime="1576068265"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.1" addrtype="ipv4"/>
+<address addr="3C:57:4F:C8:73:D1" addrtype="mac" vendor="China Mobile Group Device"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="94">
+<extrareasons reason="resets" count="94"/>
+</extraports>
+<extraports state="filtered" count="3">
+<extrareasons reason="no-responses" count="3"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="2674" rttvar="1824" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068266"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.5" addrtype="ipv4"/>
+<address addr="04:F9:38:AD:56:E6" addrtype="mac" vendor="Huawei Technologies"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="95">
+<extrareasons reason="resets" count="95"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="telnet" method="table" conf="3"/></port>
+</ports>
+<times srtt="5332" rttvar="3465" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.7" addrtype="ipv4"/>
+<address addr="00:11:32:90:93:88" addrtype="mac" vendor="Synology Incorporated"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="95">
+<extrareasons reason="resets" count="95"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="wsdapi" method="table" conf="3"/></port>
+</ports>
+<times srtt="291" rttvar="39" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.9" addrtype="ipv4"/>
+<address addr="00:17:C8:62:47:E3" addrtype="mac" vendor="Kyocera Display"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="92">
+<extrareasons reason="resets" count="92"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="297" rttvar="59" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.11" addrtype="ipv4"/>
+<address addr="86:26:D5:27:BE:C5" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="99">
+<extrareasons reason="resets" count="99"/>
+</extraports>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="601" rttvar="135" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.18" addrtype="ipv4"/>
+<address addr="00:0C:29:0F:7D:82" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="400" rttvar="75" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.19" addrtype="ipv4"/>
+<address addr="00:0C:29:C5:C9:94" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="99">
+<extrareasons reason="resets" count="99"/>
+</extraports>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="627" rttvar="68" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.20" addrtype="ipv4"/>
+<address addr="00:0C:29:0D:07:D1" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="770" rttvar="722" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.33" addrtype="ipv4"/>
+<address addr="18:60:24:C5:5C:41" addrtype="mac" vendor="Hewlett Packard"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="94">
+<extrareasons reason="resets" count="94"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="254" rttvar="26" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068268"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.40" addrtype="ipv4"/>
+<address addr="00:21:CC:D7:15:4D" addrtype="mac" vendor="Flextronics International"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-responses" count="97"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="542" rttvar="1057" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.46" addrtype="ipv4"/>
+<address addr="00:0C:29:38:FB:21" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="92">
+<extrareasons reason="resets" count="92"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49156"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="353" rttvar="42" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068266"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.50" addrtype="ipv4"/>
+<address addr="10:7B:44:7C:74:39" addrtype="mac" vendor="Asustek Computer"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="93">
+<extrareasons reason="resets" count="93"/>
+</extraports>
+<extraports state="filtered" count="5">
+<extrareasons reason="no-responses" count="5"/>
+</extraports>
+<port protocol="tcp" portid="1433"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="wsdapi" method="table" conf="3"/></port>
+</ports>
+<times srtt="731" rttvar="141" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068268"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.62" addrtype="ipv4"/>
+<address addr="4C:CC:6A:09:B5:66" addrtype="mac" vendor="Micro-star Intl"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-responses" count="96"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="wsdapi" method="table" conf="3"/></port>
+</ports>
+<times srtt="547" rttvar="785" to="100000"/>
+</host>
+<host starttime="1576068259" endtime="1576068267"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.72" addrtype="ipv4"/>
+<address addr="50:3E:AA:0D:9C:EC" addrtype="mac" vendor="Tp-link Technologies"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-responses" count="98"/>
+</extraports>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7070"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="realserver" method="table" conf="3"/></port>
+</ports>
+<times srtt="682" rttvar="1062" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068268"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.88" addrtype="ipv4"/>
+<address addr="54:B2:03:04:C0:1C" addrtype="mac" vendor="Pegatron"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="93">
+<extrareasons reason="no-responses" count="93"/>
+</extraports>
+<extraports state="closed" count="2">
+<extrareasons reason="resets" count="2"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="427"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="svrloc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="443" rttvar="452" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.174" addrtype="ipv4"/>
+<address addr="00:0C:29:61:A8:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="604" rttvar="74" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.217" addrtype="ipv4"/>
+<address addr="00:0C:29:35:5C:06" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="99">
+<extrareasons reason="resets" count="99"/>
+</extraports>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="615" rttvar="32" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068268"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.229" addrtype="ipv4"/>
+<address addr="AC:22:0B:C9:D8:68" addrtype="mac" vendor="Asustek Computer"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-responses" count="97"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="1196" rttvar="970" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068268"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.231" addrtype="ipv4"/>
+<address addr="7C:2F:80:6B:C5:C8" addrtype="mac" vendor="Gigaset Communications GmbH"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="99">
+<extrareasons reason="no-responses" count="99"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="3615" rttvar="3978" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068262"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.233" addrtype="ipv4"/>
+<address addr="40:7D:0F:67:2B:B0" addrtype="mac" vendor="Huawei Technologies"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="95">
+<extrareasons reason="resets" count="95"/>
+</extraports>
+<extraports state="filtered" count="3">
+<extrareasons reason="no-responses" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="19768" rttvar="13143" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.235" addrtype="ipv4"/>
+<address addr="00:15:65:E3:C9:5E" addrtype="mac" vendor="Xiamen Yealink Network Technology"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="97">
+<extrareasons reason="resets" count="97"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="sip" method="table" conf="3"/></port>
+</ports>
+<times srtt="341" rttvar="44" to="100000"/>
+</host>
+<host starttime="1576068260" endtime="1576068261"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.15.248" addrtype="ipv4"/>
+<address addr="0C:38:3E:13:BD:7C" addrtype="mac" vendor="Fanvil Technology"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="sip" method="table" conf="3"/></port>
+</ports>
+<times srtt="708" rttvar="440" to="100000"/>
+</host>
+<host starttime="1576068268" endtime="1576068268"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.15.16" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="97">
+<extrareasons reason="resets" count="97"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="5" rttvar="0" to="100000"/>
+</host>
+<runstats><finished time="1576068268" timestr="Wed Dec 11 07:44:28 2019" elapsed="9.24" summary="Nmap done at Wed Dec 11 07:44:28 2019; 256 IP addresses (52 hosts up) scanned in 9.24 seconds" exit="success"/><hosts up="52" down="204" total="256"/>
+</runstats>
+</nmaprun>

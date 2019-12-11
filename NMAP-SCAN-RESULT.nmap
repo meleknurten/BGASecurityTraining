@@ -1,0 +1,219 @@
+# Nmap 7.80 scan initiated Wed Dec 11 07:44:19 2019 as: nmap -n -Pn -sS --top-ports 100 --min-hostgroup 128 --open -oA NMAP-SCAN-RESULT 10.10.15.0/24
+Nmap scan report for 10.10.15.1
+Host is up (0.0027s latency).
+Not shown: 94 closed ports, 3 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+23/tcp  open  telnet
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 3C:57:4F:C8:73:D1 (China Mobile Group Device)
+
+Nmap scan report for 10.10.15.5
+Host is up (0.0053s latency).
+Not shown: 95 closed ports, 4 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+23/tcp open  telnet
+MAC Address: 04:F9:38:AD:56:E6 (Huawei Technologies)
+
+Nmap scan report for 10.10.15.7
+Host is up (0.00029s latency).
+Not shown: 95 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+MAC Address: 00:11:32:90:93:88 (Synology Incorporated)
+
+Nmap scan report for 10.10.15.9
+Host is up (0.00030s latency).
+Not shown: 92 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+MAC Address: 00:17:C8:62:47:E3 (Kyocera Display)
+
+Nmap scan report for 10.10.15.11
+Host is up (0.00060s latency).
+Not shown: 99 closed ports
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+MAC Address: 86:26:D5:27:BE:C5 (Unknown)
+
+Nmap scan report for 10.10.15.18
+Host is up (0.00040s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:0F:7D:82 (VMware)
+
+Nmap scan report for 10.10.15.19
+Host is up (0.00063s latency).
+Not shown: 99 closed ports
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:C5:C9:94 (VMware)
+
+Nmap scan report for 10.10.15.20
+Host is up (0.00077s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:0D:07:D1 (VMware)
+
+Nmap scan report for 10.10.15.33
+Host is up (0.00025s latency).
+Not shown: 94 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+MAC Address: 18:60:24:C5:5C:41 (Hewlett Packard)
+
+Nmap scan report for 10.10.15.40
+Host is up (0.00054s latency).
+Not shown: 97 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:21:CC:D7:15:4D (Flextronics International)
+
+Nmap scan report for 10.10.15.46
+Host is up (0.00035s latency).
+Not shown: 92 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: 00:0C:29:38:FB:21 (VMware)
+
+Nmap scan report for 10.10.15.50
+Host is up (0.00073s latency).
+Not shown: 93 closed ports, 5 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1433/tcp open  ms-sql-s
+5357/tcp open  wsdapi
+MAC Address: 10:7B:44:7C:74:39 (Asustek Computer)
+
+Nmap scan report for 10.10.15.62
+Host is up (0.00055s latency).
+Not shown: 96 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+MAC Address: 4C:CC:6A:09:B5:66 (Micro-star Intl)
+
+Nmap scan report for 10.10.15.72
+Host is up (0.00068s latency).
+Not shown: 98 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+7070/tcp open  realserver
+MAC Address: 50:3E:AA:0D:9C:EC (Tp-link Technologies)
+
+Nmap scan report for 10.10.15.88
+Host is up (0.00044s latency).
+Not shown: 93 filtered ports, 2 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+427/tcp  open  svrloc
+443/tcp  open  https
+8000/tcp open  http-alt
+MAC Address: 54:B2:03:04:C0:1C (Pegatron)
+
+Nmap scan report for 10.10.15.174
+Host is up (0.00060s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:61:A8:9F (VMware)
+
+Nmap scan report for 10.10.15.217
+Host is up (0.00061s latency).
+Not shown: 99 closed ports
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+MAC Address: 00:0C:29:35:5C:06 (VMware)
+
+Nmap scan report for 10.10.15.229
+Host is up (0.0012s latency).
+Not shown: 97 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: AC:22:0B:C9:D8:68 (Asustek Computer)
+
+Nmap scan report for 10.10.15.231
+Host is up (0.0036s latency).
+Not shown: 99 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 7C:2F:80:6B:C5:C8 (Gigaset Communications GmbH)
+
+Nmap scan report for 10.10.15.233
+Host is up (0.020s latency).
+Not shown: 95 closed ports, 3 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 40:7D:0F:67:2B:B0 (Huawei Technologies)
+
+Nmap scan report for 10.10.15.235
+Host is up (0.00034s latency).
+Not shown: 97 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+5060/tcp open  sip
+MAC Address: 00:15:65:E3:C9:5E (Xiamen Yealink Network Technology)
+
+Nmap scan report for 10.10.15.248
+Host is up (0.00071s latency).
+Not shown: 98 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+5060/tcp open  sip
+MAC Address: 0C:38:3E:13:BD:7C (Fanvil Technology)
+
+Nmap scan report for 10.10.15.16
+Host is up (0.0000050s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+23/tcp  open  telnet
+80/tcp  open  http
+111/tcp open  rpcbind
+
+# Nmap done at Wed Dec 11 07:44:28 2019 -- 256 IP addresses (52 hosts up) scanned in 9.24 seconds
